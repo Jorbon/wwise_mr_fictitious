@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2858DF78-6B0B-40A1-A1AE-FC88D4E0FD72}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2858DF78-6B0B-40A1-A1AE-FC88D4E0FD72}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="sound" ID="{4E368268-CB63-4A12-A4E9-39BF9B244209}">
+					<ObjectInclusionList>
+						<ObjectRef Name="player_step_material_hollow" ID="{9072D35C-80C3-40F8-B42F-B3F3EBDC80AC}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_step_material_normal" ID="{DB29AEAE-E5CD-440B-B774-C4B1B97E5D00}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_step_material_wood" ID="{B01B94A1-8780-448B-87D8-DF6EABCE7197}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_knife_equip" ID="{D0E470A2-7AEE-45E2-AB8B-4D65239DA3F9}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_knife_swing" ID="{C28080D3-44A2-45E3-9030-246DA5AA5AE5}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun_shoot" ID="{328C0540-9122-480B-9242-E5E5ED35C160}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_damage" ID="{3D1DECD5-0DD6-493F-B733-25443788D5CD}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_death" ID="{B185B9C7-9A21-49E6-A6CD-EEFCF11D2E79}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun_stow" ID="{1D355B35-0F82-4A13-81C2-1E7DF6E21FE7}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_step" ID="{F27B6D17-DE6C-4A79-B749-03C751AB2719}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun2_stow" ID="{D7B0AFD5-7AC7-4B96-AAC6-A260C341C001}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_step_material_crunch" ID="{1DAA3400-F96C-4D7E-B310-D118F6D71A5D}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_knife_stow" ID="{76BE6E0E-B0F7-4DD4-B09A-2B7258707155}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun2_equip" ID="{7CED2FD0-384B-4DEA-9E33-836043527E2F}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun_equip" ID="{9F8BCA68-BFB7-4E13-9E25-A33C938AE6F2}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_step_material_grass" ID="{F6938245-5CBA-4F58-A76E-C9571F67F85D}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player_gun2_shoot" ID="{469A564F-EAF7-4FB6-B293-7C1F020349E6}" WorkUnitID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

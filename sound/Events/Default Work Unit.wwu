@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6AE51F0F-FEF0-4914-8574-7618DD0B63B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="player" ID="{82D69B66-1D32-48CA-9A9C-6C8F888CED9A}" ShortID="653076615">
+					<ChildrenList>
+						<Event Name="player_step" ID="{F27B6D17-DE6C-4A79-B749-03C751AB2719}">
+							<ChildrenList>
+								<Action Name="" ID="{44422F7E-1CB3-46F3-834A-E232ECFF67CD}" ShortID="29268374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="steps" ID="{E66FE089-2D05-4F21-90AA-E527DDB2F283}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_knife_swing" ID="{C28080D3-44A2-45E3-9030-246DA5AA5AE5}">
+							<ChildrenList>
+								<Action Name="" ID="{996DF8DF-E5C6-405F-BD62-C69EA3CBAD37}" ShortID="327599305">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knife_swing" ID="{050318B6-6702-4F1B-95DD-A64B49E1C817}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_gun_shoot" ID="{328C0540-9122-480B-9242-E5E5ED35C160}">
+							<ChildrenList>
+								<Action Name="" ID="{B3134895-4CC8-4007-B327-A9A414638EEA}" ShortID="278206531">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_shoot_gun" ID="{0D98CECB-5075-43A7-B9AB-64D4A1974BCC}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_knife_equip" ID="{D0E470A2-7AEE-45E2-AB8B-4D65239DA3F9}">
+							<ChildrenList>
+								<Action Name="" ID="{A17E6BD1-8600-4D98-B259-0976D796E5B3}" ShortID="237926293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_knife_equip" ID="{22BFA854-2D7A-4892-AAE5-2C39A32340B0}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_gun_equip" ID="{9F8BCA68-BFB7-4E13-9E25-A33C938AE6F2}">
+							<ChildrenList>
+								<Action Name="" ID="{33FCC14D-8957-4664-B794-00526B7EF7E0}" ShortID="321842517">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_equip" ID="{B375D092-6AC6-4C50-802F-1D805A261F53}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_gun2_equip" ID="{7CED2FD0-384B-4DEA-9E33-836043527E2F}">
+							<ChildrenList>
+								<Action Name="" ID="{CD964863-ADD8-4705-80D9-6E7B901CBD95}" ShortID="723733086">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun2_equip" ID="{9381EDD5-A7F8-42EC-93A5-06881D337D99}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_gun2_shoot" ID="{469A564F-EAF7-4FB6-B293-7C1F020349E6}"/>
+						<Event Name="player_gun_stow" ID="{1D355B35-0F82-4A13-81C2-1E7DF6E21FE7}">
+							<ChildrenList>
+								<Action Name="" ID="{4F29EC45-698F-4727-8432-82C2E005C456}" ShortID="614455730">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun_stow" ID="{8CD75D50-2A66-4765-8589-80761C0C2268}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_gun2_stow" ID="{D7B0AFD5-7AC7-4B96-AAC6-A260C341C001}">
+							<ChildrenList>
+								<Action Name="" ID="{9D777380-D414-47F1-A7D2-F81B174D7A83}" ShortID="500856275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gun2_stow" ID="{29C0997B-6EBA-419E-AC41-1919D1424028}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_knife_stow" ID="{76BE6E0E-B0F7-4DD4-B09A-2B7258707155}"/>
+						<Event Name="player_death" ID="{B185B9C7-9A21-49E6-A6CD-EEFCF11D2E79}">
+							<ChildrenList>
+								<Action Name="" ID="{FF895981-C612-4343-B1BE-F1D79D132728}" ShortID="739429963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_death" ID="{3244DE0B-F1C2-4DEB-A2ED-5F799A1F3BA9}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_damage" ID="{3D1DECD5-0DD6-493F-B733-25443788D5CD}">
+							<ChildrenList>
+								<Action Name="" ID="{19C31C76-99ED-4981-9D46-F72B8836C745}" ShortID="1047711515">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damage" ID="{EC913532-49E8-486A-AE57-6B07BEFE071B}" WorkUnitID="{D4B51934-7631-4FC7-967B-38F4D934824C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_step_material_normal" ID="{DB29AEAE-E5CD-440B-B774-C4B1B97E5D00}">
+							<ChildrenList>
+								<Action Name="" ID="{B2A327B8-3481-4FA0-A049-3E8BF3A43D1F}" ShortID="61138821">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="normal" ID="{E1E0B593-62F4-497E-A89F-1628DB58B167}" WorkUnitID="{D4EACA0D-7C2C-40A1-9734-E35A98289365}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_step_material_grass" ID="{F6938245-5CBA-4F58-A76E-C9571F67F85D}">
+							<ChildrenList>
+								<Action Name="" ID="{165EF709-27CF-4E40-89D6-B05D55BAD3F8}" ShortID="533558740">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="grass" ID="{13BBF5AB-5BEC-453D-8E7F-4D336A6C98A7}" WorkUnitID="{D4EACA0D-7C2C-40A1-9734-E35A98289365}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_step_material_crunch" ID="{1DAA3400-F96C-4D7E-B310-D118F6D71A5D}">
+							<ChildrenList>
+								<Action Name="" ID="{E498618E-E0CF-470F-AB86-B6D89BD5C2D1}" ShortID="832432445">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="crunch" ID="{18160DBD-27FC-4693-B5EB-3F8624584899}" WorkUnitID="{D4EACA0D-7C2C-40A1-9734-E35A98289365}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_step_material_wood" ID="{B01B94A1-8780-448B-87D8-DF6EABCE7197}">
+							<ChildrenList>
+								<Action Name="" ID="{7C05E2ED-DC14-4436-BEA0-E60E41E44D7E}" ShortID="247541892">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wood" ID="{D1047960-71DA-4BDD-A6B1-0913A426E61E}" WorkUnitID="{D4EACA0D-7C2C-40A1-9734-E35A98289365}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_step_material_hollow" ID="{9072D35C-80C3-40F8-B42F-B3F3EBDC80AC}">
+							<ChildrenList>
+								<Action Name="" ID="{D7BCA3F5-7D4D-4F28-82A6-BC17C91B37C1}" ShortID="95547231">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hollow" ID="{79A1256B-1740-4A27-973C-E1BAE3898636}" WorkUnitID="{D4EACA0D-7C2C-40A1-9734-E35A98289365}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
