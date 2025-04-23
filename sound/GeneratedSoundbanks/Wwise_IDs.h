@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GAME_AREA_ASYLUM = 2442957673U;
+        static const AkUniqueID GAME_AREA_CRYPT = 2629918432U;
+        static const AkUniqueID GAME_AREA_FOREST = 840693127U;
+        static const AkUniqueID GAME_AREA_TOWN = 1474084824U;
         static const AkUniqueID PLAYER_DAMAGE = 2074073782U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_GUN2_EQUIP = 336962148U;
@@ -25,30 +29,31 @@ namespace AK
         static const AkUniqueID PLAYER_KNIFE_STOW = 3299203624U;
         static const AkUniqueID PLAYER_KNIFE_SWING = 1408038267U;
         static const AkUniqueID PLAYER_STEP = 3461836331U;
-        static const AkUniqueID PLAYER_STEP_MATERIAL_CRUNCH = 671048679U;
-        static const AkUniqueID PLAYER_STEP_MATERIAL_GRASS = 251429118U;
-        static const AkUniqueID PLAYER_STEP_MATERIAL_HOLLOW = 1844484457U;
-        static const AkUniqueID PLAYER_STEP_MATERIAL_NORMAL = 2509951041U;
-        static const AkUniqueID PLAYER_STEP_MATERIAL_WOOD = 72724935U;
+        static const AkUniqueID WOOF = 2058049672U;
     } // namespace EVENTS
 
     namespace SWITCHES
     {
-        namespace PLAYER_STEP_MATERIAL
+        namespace GAME_AREA
         {
-            static const AkUniqueID GROUP = 402384277U;
+            static const AkUniqueID GROUP = 1174571161U;
 
             namespace SWITCH
             {
-                static const AkUniqueID CRUNCH = 990217086U;
-                static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID HOLLOW = 815678804U;
-                static const AkUniqueID NORMAL = 1160234136U;
-                static const AkUniqueID WOOD = 2058049674U;
+                static const AkUniqueID ASYLUM = 2986392044U;
+                static const AkUniqueID CRYPT = 2761606855U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID TOWN = 3091570009U;
             } // namespace SWITCH
-        } // namespace PLAYER_STEP_MATERIAL
+        } // namespace GAME_AREA
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID PLAYER_HEALTH = 215992295U;
+        static const AkUniqueID SOUND_VOLUME = 495870151U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
@@ -58,7 +63,10 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID GUN_BUS = 369701831U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SOUND_BUS = 1545662284U;
+        static const AkUniqueID WORLD_BUS = 2294735213U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

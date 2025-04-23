@@ -1,107 +1,76 @@
 Event	ID	Name			Wwise Object Path	Notes
-	72724935	player_step_material_wood			\Default Work Unit\player\player_step_material_wood	
-	251429118	player_step_material_grass			\Default Work Unit\player\player_step_material_grass	
-	336962148	player_gun2_equip			\Default Work Unit\player\player_gun2_equip	
-	671048679	player_step_material_crunch			\Default Work Unit\player\player_step_material_crunch	
-	1068874439	player_gun2_stow			\Default Work Unit\player\player_gun2_stow	
-	1408038267	player_knife_swing			\Default Work Unit\player\player_knife_swing	
-	1844484457	player_step_material_hollow			\Default Work Unit\player\player_step_material_hollow	
-	2074073782	player_damage			\Default Work Unit\player\player_damage	
-	2509951041	player_step_material_normal			\Default Work Unit\player\player_step_material_normal	
-	2888700573	player_gun2_shoot			\Default Work Unit\player\player_gun2_shoot	
-	2963257007	player_gun_stow			\Default Work Unit\player\player_gun_stow	
-	2994582105	player_knife_equip			\Default Work Unit\player\player_knife_equip	
-	3083087645	player_death			\Default Work Unit\player\player_death	
-	3299203624	player_knife_stow			\Default Work Unit\player\player_knife_stow	
-	3461836331	player_step			\Default Work Unit\player\player_step	
-	3655591093	player_gun_shoot			\Default Work Unit\player\player_gun_shoot	
-	4048185180	player_gun_equip			\Default Work Unit\player\player_gun_equip	
+	336962148	player_gun2_equip			\Sound\player\player_gun2_equip	
+	840693127	game_area_forest			\Sound\game_area_forest	
+	1068874439	player_gun2_stow			\Sound\player\player_gun2_stow	
+	1408038267	player_knife_swing			\Sound\player\player_knife_swing	
+	1474084824	game_area_town			\Sound\game_area_town	
+	2058049672	woof			\Sound\enemy\woof	
+	2074073782	player_damage			\Sound\player\player_damage	
+	2442957673	game_area_asylum			\Sound\game_area_asylum	
+	2629918432	game_area_crypt			\Sound\game_area_crypt	
+	2888700573	player_gun2_shoot			\Sound\player\player_gun2_shoot	
+	2963257007	player_gun_stow			\Sound\player\player_gun_stow	
+	2994582105	player_knife_equip			\Sound\player\player_knife_equip	
+	3083087645	player_death			\Sound\player\player_death	
+	3299203624	player_knife_stow			\Sound\player\player_knife_stow	
+	3461836331	player_step			\Sound\player\player_step	
+	3655591093	player_gun_shoot			\Sound\player\player_gun_shoot	
+	4048185180	player_gun_equip			\Sound\player\player_gun_equip	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	402384277	player_step_material			\Default Work Unit\player_step_material	
+	1174571161	game_area			\Sound\game_area	
 
 Switch	ID	Name	Switch Group			Notes
-	815678804	hollow	player_step_material			
-	990217086	crunch	player_step_material			
-	1160234136	normal	player_step_material			
-	2058049674	wood	player_step_material			
-	4248645337	grass	player_step_material			
+	491961918	forest	game_area			
+	2761606855	crypt	game_area			
+	2986392044	asylum	game_area			
+	3091570009	town	game_area			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	player_health			\Sound\player_health	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1018070656	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	13930287	step_crunch_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\63\{63F9B876-30D8-6B37-148F-A718AF5332FC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_1		15230
-	24468781	step_crunch_4	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\99\{9924DA26-C8F9-9E75-DAF5-42216AD84CBA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_4		26042
-	47359741	step_6	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\31\{31B8A204-9FCF-5AD2-097A-6ED518F40C8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_6		6772
-	48041668	step_crunch_7	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\EE\{EECEB0A0-342A-E1AB-9796-7F400B19B3BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_7		19490
-	49110934	step_grass_9	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\47\{47BC28AF-5E10-1B17-9D85-8855CCB7A0C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_9		17106
-	56300568	step_crunch_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\94\{943E4CB3-2AD5-533D-022B-595E88662820}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_3		20852
-	59752016	step_crunch_5	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\C4\{C4E89FFF-AE65-953F-36A5-5A4696F43BD2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_5		14212
-	65555140	step_hollow_4	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\D9\{D95050C3-F5C7-E988-F4AF-648A8A2F5BD0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\hollow\step_hollow_4		16446
-	67559558	step_wood_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\A3\{A372E2EF-B5E4-9E7A-16A5-6C4D725FC148}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\wood\step_wood_2		19306
-	94090056	step_grass_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\85\{856A509F-07CE-48A8-0608-F23E06BE37D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_1		22008
-	95587813	piano_pedal_hit_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\38\{3843E094-1AF9-C5F0-1264-DFEC62EA5B9C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_2		336536
-	96966545	player_swing_knife_5	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\67\{67AEECB5-F3CE-0C33-49C3-F5087C2D6B61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_5		17686
-	102428016	step_grass_8	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\C9\{C9EA572B-B7DD-7F73-269F-E9FCD154993D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_8		19688
-	119096001	player_knife_equip	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\6A\{6AC19EBB-C8A2-49D1-A1C7-54960FF77AEA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\player_knife_equip		31210
-	142320173	player_swing_knife_12	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\4E\{4E026522-EA71-ED25-7CC8-58CE30DD3849}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_12		14370
-	148621502	piano_pedal_hit_5	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\13\{13437CAB-F5B9-BAA6-A634-2C97ADCCC0A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_5		319892
-	157495126	step_4	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\7C\{7CFC8C19-8689-A728-0761-E53904FA23C8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_4		6540
-	161958754	step_7	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\4C\{4C21E771-30CA-C84A-520E-BDE57DE6090A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_7		3586
-	163540925	step_grass_7	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\77\{775F36F3-0B45-A3D8-B9EF-72E8E4E6E7F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_7		20222
-	179153603	player_death	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\51\{51670DE9-16E7-FF70-C740-BFCE33DEA947}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\player_death		5177896
-	184464392	step_grass_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\19\{1914772D-A2A0-F4FD-C2FE-BD07580498A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_3		22072
-	185770573	player_swing_knife_7	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\00\{0007CD69-98A9-A039-FAAD-EA98764D010D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_7		17460
-	186334197	player_swing_knife_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\80\{80044934-BC5C-C52D-34F0-7D69AD8CED59}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_1		14594
-	192351721	step_crunch_6	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\1D\{1D5501AD-7011-855A-6497-BE7103AABC4D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_6		19186
-	210746355	piano_pedal_hit_8	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\2F\{2F3B86C5-5984-187C-ACE0-F8120DF60F3C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_8		571972
-	214874805	step_crunch_11	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\81\{81F1FFF7-1325-4697-CFAE-B6905C9D6337}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_11		19370
-	215435431	step_5	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\57\{5748B8C5-8EE5-38B6-A377-C0A8016343AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_5		6478
-	221929389	step_grass_5	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\A9\{A9D7176C-A85A-FAC9-BF3F-AC7DF6AFB905}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_5		27068
-	225767480	player_gun_equip_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\79\{79253797-98BC-7423-D406-EFFF70C8240E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun_equip\player_gun_equip_1		97408
-	250816397	piano_pedal_hit_loud	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\73\{738D1B0B-7171-A391-BC86-87A355B1EDE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_loud		498504
-	328880274	piano_pedal_thump_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\51\{51B6E4C5-AC98-B6FA-FF3A-86E2FCE8EA9D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_thump_2		288632
-	331452829	player_gun2_equip_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\D6\{D64769D4-7E31-3777-7FA5-CAF2F976390E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun2_equip\player_gun2_equip_1		63102
-	420047347	step_grass_12	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\A4\{A4D2FC8D-93D3-7097-1183-463B46238073}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_12		16538
-	422511376	player_gun_stow_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\79\{790CC3F5-1F3B-815F-3425-B0220CD50BC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun_stow\player_gun_stow_1		92478
-	443959996	player_swing_knife_6	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\BA\{BAAAE3F8-0903-FA92-8CC8-9D1EB96B0E9D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_6		15382
-	455416396	step_grass_6	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\E2\{E2D954AB-CAF2-F1E9-DAD4-4DD50C0E59E5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_6		30806
-	461370265	player_swing_knife_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\A2\{A2DB9622-2697-FD02-92D7-4BB55AD3F5FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_3		17348
-	501407158	player_gun2_stow_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\C5\{C5A98CAF-A50F-80EC-DAE4-786EA07C3A84}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun2_stow\player_gun2_stow_1		58016
-	513186647	player_swing_knife_10	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\1D\{1DF9BDF3-477E-ED81-2CA7-28D4D5FE4C3B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_10		14652
-	524831652	player_swing_knife_9	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\87\{87D03910-0081-F8A3-2AEC-2FDA21FD4A4B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_9		15718
-	549586425	player_shoot_gun	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\37\{370BCA10-205F-199E-5E0D-430D2B679E06}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\player_shoot_gun		22962
-	552050108	step_hollow_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\36\{365AA808-94C6-3961-6046-DF86755B77C4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\hollow\step_hollow_1		14348
-	559317701	piano_pedal_hit_6	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\3D\{3D92B04D-3007-17F9-6E3E-97E669D1D3A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_6		415992
-	592210594	step_hollow_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\93\{9359C80E-C738-61E0-60E3-BC4DE658EBEB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\hollow\step_hollow_2		11984
-	597391421	player_swing_knife_4	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\51\{515FA8C6-6F44-4913-1F7F-0C33CF50DFB7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_4		16728
-	613076162	step_crunch_15	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\80\{804939BF-97EE-0949-47B4-22697A545B04}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_15		20960
-	629890993	step_crunch_16	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\DF\{DF563FCA-DA3A-326B-30BD-2CC4B23ABD8F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_16		19196
-	681643993	step_grass_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\26\{26A80A69-6E41-5A66-6B7B-70ABF98C2913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_2		18046
-	692191106	step_grass_4	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\B8\{B8D421D4-F7BD-6D68-B12E-6358D372F1EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_4		22602
-	702514020	piano_pedal_hit_small	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\AA\{AAEF9F94-F73A-F484-23B1-2D5F607D7A39}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_small		223252
-	732340735	step_wood_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\3C\{3CCAB8B8-DEBD-50C3-7961-73F5357C1EBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\wood\step_wood_1		18592
-	735789288	step_crunch_12	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\DE\{DE305BCD-B898-161D-F77D-22895B683B62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_12		22212
-	739817701	step_crunch_9	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\62\{629728E0-427B-D7A4-B0A8-7A276D69A675}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_9		21064
-	761429720	player_swing_knife_13	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\8F\{8FA1A719-6DDA-19FE-8DD3-00B5A334BA1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_13		14876
-	773800204	player_swing_knife_11	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\0D\{0D2302C8-93FF-AA41-E910-A11E36E73F7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_11		15156
-	782389925	piano_pedal_hit_7	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\C4\{C4FA7774-0A37-778A-9BED-F005B65E670B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit_7		1671892
-	787805895	step_crunch_13	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\51\{51C0B426-623B-20BB-164A-2B46CA54E634}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_13		17434
-	821126337	step_grass_10	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\D4\{D43D8805-8360-E689-CA36-584957F01638}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_10		21174
-	851772844	step_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\B9\{B9902429-5E29-9B08-01A8-CB3575A5CF3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_3		6172
-	853715937	step_crunch_14	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\1D\{1D9E1EF5-29F4-1426-F0BD-2FFE376E8A01}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_14		18610
-	864530334	player_swing_knife_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\98\{98121F59-1096-4440-47E1-B4A3D51D602A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_2		16394
-	864746562	step_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\43\{4362E204-EDF8-58BD-7A86-BB3460F4179C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_2		7480
-	866610949	step_crunch_8	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\6D\{6DEF2C02-C565-A7D1-228D-68ABEC91AE10}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_8		24908
-	903123993	player_gun_stow_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\91\{916C7DB0-4DF4-A9C8-8C7F-B965413C4A6F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun_stow\player_gun_stow_2		96916
-	906602177	step_wood_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\21\{21BEB5B1-CC5E-A255-3EF6-6916B9192C96}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\wood\step_wood_3		18690
-	911251202	player_swing_knife_8	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\D6\{D608FD6B-4770-184C-208A-6274FD956883}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\attacks\knife_swing\player_swing_knife_8		18584
-	923084543	piano_pedal_hit	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\3F\{3F5B80D6-780D-8018-CD1E-28B1285FC2E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_hit		168792
-	988350661	player_gun2_stow_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\CE\{CE849BCA-1FE4-7D56-93E5-48B7DF41F3D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun2_stow\player_gun2_stow_2		45636
-	994139354	step_crunch_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\DD\{DDDC236F-5AA2-0E80-346B-48867ED1718F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_2		20134
-	996280380	step_grass_11	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\ED\{ED9AF452-65FA-47F4-3F47-6C7DFDAA1AD7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\grass\step_grass_11		7788
-	1000585856	step_1	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\A7\{A78DF72A-AB36-9CB0-5981-77D57D3C8BB0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_1		5004
-	1004606971	step_hollow_3	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\27\{27E23F9A-3E6B-ADF3-343D-6F115AB972A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\hollow\step_hollow_3		12316
-	1021128939	step_crunch_10	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\BD\{BD4CB4F9-3324-4046-4333-2EEB2F862D27}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\crunch\step_crunch_10		14676
-	1036904178	player_gun_equip_2	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\C3\{C3979BD0-6C2F-060D-B788-221DFBC0B807}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\equips\gun_equip\player_gun_equip_2		101560
-	1058532395	piano_pedal_thump	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\29\{2937989C-8DEE-87F6-1DC9-221D1067A2C5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\damage\piano_pedal_thump		331576
-	1070868800	step_8	C:\Users\fakeuser\github\wwise_mr_fictitious\sound\.cache\9C\{9CBAF404-1CDB-B6EF-B5A6-B1EB7EE7921D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\player\steps\normal\step_8		4938
+	24468781	step_crunch_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{9924DA26-C8F9-9E75-DAF5-42216AD84CBA}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_4		26042
+	48041668	step_crunch_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\EE\{EECEB0A0-342A-E1AB-9796-7F400B19B3BC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_7		19490
+	56300568	step_crunch_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\94\{943E4CB3-2AD5-533D-022B-595E88662820}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_3		20852
+	65555140	step_hollow_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\D9\{D95050C3-F5C7-E988-F4AF-648A8A2F5BD0}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_4		16446
+	67559558	step_wood_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A3\{A372E2EF-B5E4-9E7A-16A5-6C4D725FC148}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_2		19306
+	95587813	piano_pedal_hit_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4F\{4F22D4E3-3C62-76E7-2158-2C90516CE717}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_2		88092
+	119096001	knife_equip	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\FD\{FDCEA443-3DAF-4890-CA13-745C41EBB0E6}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\knife_equip		21774
+	148621502	piano_pedal_hit_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E0\{E01A3A90-B756-8B78-FC64-3DB1958871F0}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_5		70136
+	161958754	step_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4C\{4C21E771-30CA-C84A-520E-BDE57DE6090A}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_7		3586
+	179153603	player_death	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{5142F311-2918-B982-7E87-A9A9DA2EB8C8}.wem		\Actor-Mixer Hierarchy\Sound\player\player_death		5177896
+	186334197	player_swing_knife_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{80044934-BC5C-C52D-34F0-7D69AD8CED59}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_1		14594
+	210746355	piano_pedal_hit_8	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{995371A2-FF38-EA46-AC6E-8B0E65FBA346}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_8		105236
+	215435431	step_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\57\{5748B8C5-8EE5-38B6-A377-C0A8016343AC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_5		6478
+	225767480	player_gun_equip_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4E\{4E13F51E-8C1B-A3F6-AE8F-6E7D50133430}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_equip\player_gun_equip_1		51828
+	331452829	player_gun2_equip_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2A\{2ADB92CA-F673-2E4E-EF17-FE060B7680ED}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_equip\player_gun2_equip_1		45752
+	369113679	woof	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\ED\{EDD36B8C-1751-3BAD-AEAC-601B673B431C}.wem		\Actor-Mixer Hierarchy\Sound\enemy\woof		31742
+	422511376	player_gun_stow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BB\{BBF156AE-C428-54A1-2DEA-990E60FBCDB8}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_stow\player_gun_stow_1		55368
+	461370265	player_swing_knife_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A2\{A2DB9622-2697-FD02-92D7-4BB55AD3F5FB}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_3		17348
+	501407158	player_gun2_stow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0E\{0EC2DDA5-D89E-CD8E-2E68-1781B4F8BD7F}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_stow\player_gun2_stow_1		46502
+	524831652	player_swing_knife_9	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\87\{87D03910-0081-F8A3-2AEC-2FDA21FD4A4B}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_9		15718
+	549586425	gun_shoot	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BE\{BE19EE8D-4589-58B2-1066-AEC89CA6550E}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\gun_shoot		22962
+	552050108	step_hollow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\36\{365AA808-94C6-3961-6046-DF86755B77C4}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_1		14348
+	559317701	piano_pedal_hit_6	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4A\{4AD5A53C-F6C0-5416-5917-FF4FE7895AB5}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_6		115308
+	592210594	step_hollow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\93\{9359C80E-C738-61E0-60E3-BC4DE658EBEB}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_2		11984
+	597391421	player_swing_knife_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{515FA8C6-6F44-4913-1F7F-0C33CF50DFB7}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_4		16728
+	613076162	step_crunch_15	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{804939BF-97EE-0949-47B4-22697A545B04}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_15		20960
+	732340735	step_wood_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\3C\{3CCAB8B8-DEBD-50C3-7961-73F5357C1EBC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_1		18592
+	761429720	player_swing_knife_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\8F\{8FA1A719-6DDA-19FE-8DD3-00B5A334BA1F}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_13		14876
+	787805895	step_crunch_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{51C0B426-623B-20BB-164A-2B46CA54E634}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_13		17434
+	851772844	step_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\B9\{B9902429-5E29-9B08-01A8-CB3575A5CF3F}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_3		6172
+	864530334	player_swing_knife_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\98\{98121F59-1096-4440-47E1-B4A3D51D602A}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_2		16394
+	903123993	player_gun_stow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\17\{175EF31E-275E-36CB-7D22-1859C2755A9D}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_stow\player_gun_stow_2		44656
+	906602177	step_wood_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\21\{21BEB5B1-CC5E-A255-3EF6-6916B9192C96}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_3		18690
+	923084543	piano_pedal_hit	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E5\{E5F33F27-DC43-2EBA-E7F7-92B05F27BD9C}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit		80404
+	988350661	player_gun2_stow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\08\{08CF5242-CF33-43F5-D653-06F9C396A42D}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_stow\player_gun2_stow_2		35732
+	994139354	step_crunch_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\DD\{DDDC236F-5AA2-0E80-346B-48867ED1718F}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_2		20134
+	1000585856	step_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A7\{A78DF72A-AB36-9CB0-5981-77D57D3C8BB0}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_1		5004
+	1004606971	step_hollow_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\27\{27E23F9A-3E6B-ADF3-343D-6F115AB972A2}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_3		12316
+	1036904178	player_gun_equip_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0F\{0F5E6E47-6902-B0F9-4650-FFDC0E77129F}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_equip\player_gun_equip_2		65830
+	1058532395	piano_pedal_thump	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2C\{2C359D61-4A5F-8C2B-68EF-8D825C4BF8A3}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_thump		82036
 

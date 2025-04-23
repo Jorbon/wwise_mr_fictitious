@@ -3,13 +3,12 @@
 	<Switches>
 		<WorkUnit Name="Sound" ID="{F5E437D4-F614-416A-8D90-51FC331C9221}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="player_step_material" ID="{B738215D-B00F-424F-8997-2D30DB15FD9E}">
+				<SwitchGroup Name="game_area" ID="{B738215D-B00F-424F-8997-2D30DB15FD9E}">
 					<ChildrenList>
-						<Switch Name="normal" ID="{E1E0B593-62F4-497E-A89F-1628DB58B167}"/>
-						<Switch Name="crunch" ID="{18160DBD-27FC-4693-B5EB-3F8624584899}"/>
-						<Switch Name="grass" ID="{13BBF5AB-5BEC-453D-8E7F-4D336A6C98A7}"/>
-						<Switch Name="wood" ID="{D1047960-71DA-4BDD-A6B1-0913A426E61E}"/>
-						<Switch Name="hollow" ID="{79A1256B-1740-4A27-973C-E1BAE3898636}"/>
+						<Switch Name="crypt" ID="{E1E0B593-62F4-497E-A89F-1628DB58B167}"/>
+						<Switch Name="forest" ID="{18160DBD-27FC-4693-B5EB-3F8624584899}"/>
+						<Switch Name="town" ID="{D1047960-71DA-4BDD-A6B1-0913A426E61E}"/>
+						<Switch Name="asylum" ID="{79A1256B-1740-4A27-973C-E1BAE3898636}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

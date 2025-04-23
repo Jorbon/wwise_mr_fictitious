@@ -1,4 +1,5 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	495870151	sound_volume			\Sound\sound_volume	
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
@@ -15,7 +16,20 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	369701831	Gun Bus			\Default Work Unit\Sound Bus\Gun Bus	
+	1545662284	Sound Bus			\Default Work Unit\Sound Bus	
+	2294735213	World Bus			\Default Work Unit\Sound Bus\World Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	331368863	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	432826819	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	472703886	Plate_Small (Custom)	Wwise RoomVerb			
+	611512989	Hall_Small_Bright (Custom)	Wwise RoomVerb			
+	732053740	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	846313829	Plate_Small (Custom)	Wwise RoomVerb			
+	900609853	Hall_Small_Bright (Custom)	Wwise RoomVerb			
+	996014611	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

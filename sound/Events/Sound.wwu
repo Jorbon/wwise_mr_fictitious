@@ -32,7 +32,7 @@
 								<Action Name="" ID="{B3134895-4CC8-4007-B327-A9A414638EEA}" ShortID="278206531">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="player_shoot_gun" ID="{0D98CECB-5075-43A7-B9AB-64D4A1974BCC}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+											<ObjectRef Name="gun_shoot" ID="{0D98CECB-5075-43A7-B9AB-64D4A1974BCC}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,7 +43,7 @@
 								<Action Name="" ID="{A17E6BD1-8600-4D98-B259-0976D796E5B3}" ShortID="237926293">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="player_knife_equip" ID="{22BFA854-2D7A-4892-AAE5-2C39A32340B0}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+											<ObjectRef Name="knife_equip" ID="{22BFA854-2D7A-4892-AAE5-2C39A32340B0}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -117,71 +117,247 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="player_step_material_normal" ID="{DB29AEAE-E5CD-440B-B774-C4B1B97E5D00}">
+					</ChildrenList>
+				</Folder>
+				<Event Name="game_area_crypt" ID="{DB29AEAE-E5CD-440B-B774-C4B1B97E5D00}">
+					<ChildrenList>
+						<Action Name="" ID="{B2A327B8-3481-4FA0-A049-3E8BF3A43D1F}" ShortID="61138821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crypt" ID="{E1E0B593-62F4-497E-A89F-1628DB58B167}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CC1B32A3-4C07-438B-A543-DFD3F2C280F0}" ShortID="92493161">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4813F5BB-8559-4D85-AFFD-E57C1DAD054D}" ShortID="1047636764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E94E15B-1DE2-4A37-B669-207165FFD6D9}" ShortID="78421098">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{075C3005-A07F-429E-AEC3-8328DB9776AF}" ShortID="767078506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_area_forest" ID="{1DAA3400-F96C-4D7E-B310-D118F6D71A5D}">
+					<ChildrenList>
+						<Action Name="" ID="{E498618E-E0CF-470F-AB86-B6D89BD5C2D1}" ShortID="832432445">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="forest" ID="{18160DBD-27FC-4693-B5EB-3F8624584899}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8271CE3F-8779-44E7-9F01-91BEAEA2F6EA}" ShortID="314619808">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9CBAAE3C-FC37-4B2B-B8F1-050EA0C72011}" ShortID="274574308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1B35D138-F270-4D86-B173-EE001D7B6082}" ShortID="381224218">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{124C2B4E-A4F4-4896-8325-76B6F76879F2}" ShortID="29610453">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_area_asylum" ID="{9072D35C-80C3-40F8-B42F-B3F3EBDC80AC}">
+					<ChildrenList>
+						<Action Name="" ID="{D7BCA3F5-7D4D-4F28-82A6-BC17C91B37C1}" ShortID="95547231">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="asylum" ID="{79A1256B-1740-4A27-973C-E1BAE3898636}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62F593C5-7DC6-40A3-A0F3-80631964C901}" ShortID="915775408">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{341C7D87-5E00-4D21-85B3-BD465EC7C9BB}" ShortID="751456083">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B816504E-A092-4D40-9E2E-02BA606FC7EF}" ShortID="812471588">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{363E1BE9-D886-4E54-A79B-71D7212F15F2}" ShortID="110036636">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_area_town" ID="{B01B94A1-8780-448B-87D8-DF6EABCE7197}">
+					<ChildrenList>
+						<Action Name="" ID="{7C05E2ED-DC14-4436-BEA0-E60E41E44D7E}" ShortID="247541892">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="town" ID="{D1047960-71DA-4BDD-A6B1-0913A426E61E}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D7764AEF-09AC-44D4-863E-0BF6E2FED43B}" ShortID="999640351">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{073208D1-9464-45F2-A79B-06AE1DDA4DE2}" ShortID="34446528">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="56"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{181E888F-2520-41EC-B072-626BF17D1E97}" ShortID="1037229725">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{34EEFE90-501E-4E42-80D8-77E0ADA89F0C}" ShortID="41769730">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="50"/>
+								<Property Name="BypassFlag" Type="bool" Value="False"/>
+								<Property Name="EffectSlot" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="enemy" ID="{79011C6E-1BB4-4AB7-A552-71B2E834C321}" ShortID="50592748">
+					<ChildrenList>
+						<Event Name="woof" ID="{9303B702-A636-4E52-85D1-ECCA7CA9D264}">
 							<ChildrenList>
-								<Action Name="" ID="{B2A327B8-3481-4FA0-A049-3E8BF3A43D1F}" ShortID="61138821">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
+								<Action Name="" ID="{A5E3CBF4-66C0-4D1C-A68F-C0AEA64B0C70}" ShortID="232546053">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="normal" ID="{E1E0B593-62F4-497E-A89F-1628DB58B167}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="player_step_material_grass" ID="{F6938245-5CBA-4F58-A76E-C9571F67F85D}">
-							<ChildrenList>
-								<Action Name="" ID="{165EF709-27CF-4E40-89D6-B05D55BAD3F8}" ShortID="533558740">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="grass" ID="{13BBF5AB-5BEC-453D-8E7F-4D336A6C98A7}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="player_step_material_crunch" ID="{1DAA3400-F96C-4D7E-B310-D118F6D71A5D}">
-							<ChildrenList>
-								<Action Name="" ID="{E498618E-E0CF-470F-AB86-B6D89BD5C2D1}" ShortID="832432445">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="crunch" ID="{18160DBD-27FC-4693-B5EB-3F8624584899}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="player_step_material_wood" ID="{B01B94A1-8780-448B-87D8-DF6EABCE7197}">
-							<ChildrenList>
-								<Action Name="" ID="{7C05E2ED-DC14-4436-BEA0-E60E41E44D7E}" ShortID="247541892">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wood" ID="{D1047960-71DA-4BDD-A6B1-0913A426E61E}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="player_step_material_hollow" ID="{9072D35C-80C3-40F8-B42F-B3F3EBDC80AC}">
-							<ChildrenList>
-								<Action Name="" ID="{D7BCA3F5-7D4D-4F28-82A6-BC17C91B37C1}" ShortID="95547231">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="hollow" ID="{79A1256B-1740-4A27-973C-E1BAE3898636}" WorkUnitID="{F5E437D4-F614-416A-8D90-51FC331C9221}"/>
+											<ObjectRef Name="woof" ID="{5C7C1DFC-DAD7-45CD-9312-7514254EA007}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

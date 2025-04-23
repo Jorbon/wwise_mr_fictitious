@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49CEED7D-40A0-4B8B-8EA6-3310EC7887A4}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Sound" ID="{49CEED7D-40A0-4B8B-8EA6-3310EC7887A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="sound_volume" ID="{18344483-49E4-4CC5-AD7A-B815C266B03B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="player_health" ID="{7C065519-434F-4B5B-9404-7439CF784F4E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
