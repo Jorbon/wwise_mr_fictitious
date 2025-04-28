@@ -1,21 +1,79 @@
 Event	ID	Name			Wwise Object Path	Notes
-	336962148	player_gun2_equip			\Sound\player\player_gun2_equip	
+	39551106	wolf_alert			\Sound\enemies\wolf\wolf_alert	
+	51221297	ghost_death			\Sound\enemies\ghost\ghost_death	
+	84128576	ghost_passive			\Sound\enemies\ghost\ghost_passive	
+	359895338	statue_alert			\Sound\enemies\statue\statue_alert	
+	378138552	rat_passive			\Sound\enemies\rat\rat_passive	
+	391797197	morphine_pick_up			\Sound\items\morphine\morphine_pick_up	
+	409434414	wolf_death			\Sound\enemies\wolf\wolf_death	
+	447222757	cocaine_drop			\Sound\items\cocaine\cocaine_drop	
+	474579462	horseman_passive			\Sound\bosses\horseman\horseman_passive	
+	477670102	new_game			\Sound\menu\new_game	
+	573247355	cocaine_pick_up			\Sound\items\cocaine\cocaine_pick_up	
+	583449690	rifle_dry_fire			\Sound\weapons\rifle\rifle_dry_fire	
+	760777789	menu_click			\Sound\menu\menu_click	
+	795876976	saber_drop			\Sound\weapons\saber\saber_drop	
+	837299471	wolf_passive			\Sound\enemies\wolf\wolf_passive	
 	840693127	game_area_forest			\Sound\game_area_forest	
-	1068874439	player_gun2_stow			\Sound\player\player_gun2_stow	
-	1408038267	player_knife_swing			\Sound\player\player_knife_swing	
+	904885164	horseman_unalert			\Sound\bosses\horseman\horseman_unalert	
+	909959991	flashlight_use			\Sound\weapons\flashlight\flashlight_use	
+	1068092414	player_hurt			\Sound\player\player_hurt	
+	1073613021	rifle_pick_up			\Sound\weapons\rifle\rifle_pick_up	
+	1117295805	rifle_shoot			\Sound\weapons\rifle\rifle_shoot	
+	1153302829	flashlight_drop			\Sound\weapons\flashlight\flashlight_drop	
+	1268870121	rat_death			\Sound\enemies\rat\rat_death	
+	1281635916	pistol_drop			\Sound\weapons\pistol\pistol_drop	
+	1351494285	pistol_dry_fire			\Sound\weapons\pistol\pistol_dry_fire	
+	1408910503	horseman_shadow			\Sound\bosses\horseman\horseman_shadow	
+	1451961116	worker_alert			\Sound\enemies\worker\worker_alert	
 	1474084824	game_area_town			\Sound\game_area_town	
-	2058049672	woof			\Sound\enemy\woof	
-	2074073782	player_damage			\Sound\player\player_damage	
+	1518333236	horseman_shoot			\Sound\bosses\horseman\horseman_shoot	
+	1562447415	statue_passive			\Sound\enemies\statue\statue_passive	
+	1572639255	rifle_drop			\Sound\weapons\rifle\rifle_drop	
+	1722103065	worker_hurt			\Sound\enemies\worker\worker_hurt	
+	1754695199	saber_swing			\Sound\weapons\saber\saber_swing	
+	1759798504	mendoza_death			\Sound\bosses\mendoza\mendoza_death	
+	1819231266	menu_text			\Sound\menu\menu_text	
+	1868357799	horseman_alert			\Sound\bosses\horseman\horseman_alert	
+	1909822451	flashlight_pick_up			\Sound\weapons\flashlight\flashlight_pick_up	
+	1952085827	horseman_death			\Sound\bosses\horseman\horseman_death	
+	1977155416	pistol_pick_up			\Sound\weapons\pistol\pistol_pick_up	
+	1996426614	statue_death			\Sound\enemies\statue\statue_death	
+	2058049672	woof			\Sound\enemies\wolf\woof	
+	2124970216	pistol_shoot			\Sound\weapons\pistol\pistol_shoot	
+	2151536549	big_statue_ground_pound			\Sound\bosses\big_statue\big_statue_ground_pound	
+	2206398204	worker_death			\Sound\enemies\worker\worker_death	
+	2221259764	saber_pick_up			\Sound\weapons\saber\saber_pick_up	
+	2381121692	mendoza_throw_syringe			\Sound\bosses\mendoza\mendoza_throw_syringe	
+	2382554986	big_statue_passive			\Sound\bosses\big_statue\big_statue_passive	
 	2442957673	game_area_asylum			\Sound\game_area_asylum	
+	2471571571	wolf_hurt			\Sound\enemies\wolf\wolf_hurt	
+	2577312975	cocaine_use			\Sound\items\cocaine\cocaine_use	
+	2611567045	player_hit_enemy			\Sound\player\player_hit_enemy	
 	2629918432	game_area_crypt			\Sound\game_area_crypt	
-	2888700573	player_gun2_shoot			\Sound\player\player_gun2_shoot	
-	2963257007	player_gun_stow			\Sound\player\player_gun_stow	
-	2994582105	player_knife_equip			\Sound\player\player_knife_equip	
+	2677018071	big_statue_dash			\Sound\bosses\big_statue\big_statue_dash	
+	2871720991	big_statue_death			\Sound\bosses\big_statue\big_statue_death	
+	2909779513	morphine_use			\Sound\items\morphine\morphine_use	
 	3083087645	player_death			\Sound\player\player_death	
-	3299203624	player_knife_stow			\Sound\player\player_knife_stow	
+	3105223276	horseman_hurt			\Sound\bosses\horseman\horseman_hurt	
+	3117316584	big_statue_hurt			\Sound\bosses\big_statue\big_statue_hurt	
+	3118712133	mendoza_passive			\Sound\bosses\mendoza\mendoza_passive	
+	3131033877	mendoza_hurt			\Sound\bosses\mendoza\mendoza_hurt	
+	3153394827	statue_hurt			\Sound\enemies\statue\statue_hurt	
+	3291325616	knife_drop			\Sound\weapons\knife\knife_drop	
+	3353988744	mendoza_alert			\Sound\bosses\mendoza\mendoza_alert	
+	3430418271	knife_swing			\Sound\weapons\knife\knife_swing	
 	3461836331	player_step			\Sound\player\player_step	
-	3655591093	player_gun_shoot			\Sound\player\player_gun_shoot	
-	4048185180	player_gun_equip			\Sound\player\player_gun_equip	
+	3717368857	rat_alert			\Sound\enemies\rat\rat_alert	
+	3755188775	morphine_drop			\Sound\items\morphine\morphine_drop	
+	3965856865	worker_passive			\Sound\enemies\worker\worker_passive	
+	4015422482	big_statue_not_hurt			\Sound\bosses\big_statue\big_statue_not_hurt	
+	4028753314	ghost_hurt			\Sound\enemies\ghost\ghost_hurt	
+	4042321219	big_statue_alert			\Sound\bosses\big_statue\big_statue_alert	
+	4118296805	note_pick_up			\Sound\items\note_pick_up	
+	4126897460	knife_pick_up			\Sound\weapons\knife\knife_pick_up	
+	4145688586	rat_hurt			\Sound\enemies\rat\rat_hurt	
+	4288698113	ghost_alert			\Sound\enemies\ghost\ghost_alert	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1174571161	game_area			\Sound\game_area	
@@ -30,47 +88,74 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	215992295	player_health			\Sound\player_health	
 
 Effect plug-ins	ID	Name	Type				Notes
+	272084942	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	373386525	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	537409510	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	762379535	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	811656921	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 	1018070656	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	1026043103	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	24468781	step_crunch_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{9924DA26-C8F9-9E75-DAF5-42216AD84CBA}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_4		26042
-	48041668	step_crunch_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\EE\{EECEB0A0-342A-E1AB-9796-7F400B19B3BC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_7		19490
-	56300568	step_crunch_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\94\{943E4CB3-2AD5-533D-022B-595E88662820}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_3		20852
-	65555140	step_hollow_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\D9\{D95050C3-F5C7-E988-F4AF-648A8A2F5BD0}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_4		16446
-	67559558	step_wood_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A3\{A372E2EF-B5E4-9E7A-16A5-6C4D725FC148}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_2		19306
-	95587813	piano_pedal_hit_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4F\{4F22D4E3-3C62-76E7-2158-2C90516CE717}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_2		88092
-	119096001	knife_equip	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\FD\{FDCEA443-3DAF-4890-CA13-745C41EBB0E6}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\knife_equip		21774
-	148621502	piano_pedal_hit_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E0\{E01A3A90-B756-8B78-FC64-3DB1958871F0}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_5		70136
-	161958754	step_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4C\{4C21E771-30CA-C84A-520E-BDE57DE6090A}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_7		3586
-	179153603	player_death	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{5142F311-2918-B982-7E87-A9A9DA2EB8C8}.wem		\Actor-Mixer Hierarchy\Sound\player\player_death		5177896
-	186334197	player_swing_knife_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{80044934-BC5C-C52D-34F0-7D69AD8CED59}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_1		14594
-	210746355	piano_pedal_hit_8	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{995371A2-FF38-EA46-AC6E-8B0E65FBA346}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_8		105236
-	215435431	step_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\57\{5748B8C5-8EE5-38B6-A377-C0A8016343AC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_5		6478
-	225767480	player_gun_equip_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4E\{4E13F51E-8C1B-A3F6-AE8F-6E7D50133430}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_equip\player_gun_equip_1		51828
-	331452829	player_gun2_equip_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2A\{2ADB92CA-F673-2E4E-EF17-FE060B7680ED}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_equip\player_gun2_equip_1		45752
-	369113679	woof	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\ED\{EDD36B8C-1751-3BAD-AEAC-601B673B431C}.wem		\Actor-Mixer Hierarchy\Sound\enemy\woof		31742
-	422511376	player_gun_stow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BB\{BBF156AE-C428-54A1-2DEA-990E60FBCDB8}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_stow\player_gun_stow_1		55368
-	461370265	player_swing_knife_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A2\{A2DB9622-2697-FD02-92D7-4BB55AD3F5FB}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_3		17348
-	501407158	player_gun2_stow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0E\{0EC2DDA5-D89E-CD8E-2E68-1781B4F8BD7F}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_stow\player_gun2_stow_1		46502
-	524831652	player_swing_knife_9	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\87\{87D03910-0081-F8A3-2AEC-2FDA21FD4A4B}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_9		15718
-	549586425	gun_shoot	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BE\{BE19EE8D-4589-58B2-1066-AEC89CA6550E}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\gun_shoot		22962
-	552050108	step_hollow_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\36\{365AA808-94C6-3961-6046-DF86755B77C4}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_1		14348
-	559317701	piano_pedal_hit_6	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4A\{4AD5A53C-F6C0-5416-5917-FF4FE7895AB5}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit_6		115308
-	592210594	step_hollow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\93\{9359C80E-C738-61E0-60E3-BC4DE658EBEB}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_2		11984
-	597391421	player_swing_knife_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{515FA8C6-6F44-4913-1F7F-0C33CF50DFB7}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_4		16728
-	613076162	step_crunch_15	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{804939BF-97EE-0949-47B4-22697A545B04}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_15		20960
-	732340735	step_wood_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\3C\{3CCAB8B8-DEBD-50C3-7961-73F5357C1EBC}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_1		18592
-	761429720	player_swing_knife_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\8F\{8FA1A719-6DDA-19FE-8DD3-00B5A334BA1F}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_13		14876
-	787805895	step_crunch_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{51C0B426-623B-20BB-164A-2B46CA54E634}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_13		17434
-	851772844	step_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\B9\{B9902429-5E29-9B08-01A8-CB3575A5CF3F}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_3		6172
-	864530334	player_swing_knife_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\98\{98121F59-1096-4440-47E1-B4A3D51D602A}.wem		\Actor-Mixer Hierarchy\Sound\player\attacks\knife_swing\player_swing_knife_2		16394
-	903123993	player_gun_stow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\17\{175EF31E-275E-36CB-7D22-1859C2755A9D}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_stow\player_gun_stow_2		44656
-	906602177	step_wood_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\21\{21BEB5B1-CC5E-A255-3EF6-6916B9192C96}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\town\step_wood_3		18690
-	923084543	piano_pedal_hit	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E5\{E5F33F27-DC43-2EBA-E7F7-92B05F27BD9C}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_hit		80404
-	988350661	player_gun2_stow_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\08\{08CF5242-CF33-43F5-D653-06F9C396A42D}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun2_stow\player_gun2_stow_2		35732
-	994139354	step_crunch_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\DD\{DDDC236F-5AA2-0E80-346B-48867ED1718F}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\forest\step_crunch_2		20134
-	1000585856	step_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A7\{A78DF72A-AB36-9CB0-5981-77D57D3C8BB0}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\crypt\step_1		5004
-	1004606971	step_hollow_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\27\{27E23F9A-3E6B-ADF3-343D-6F115AB972A2}.wem		\Actor-Mixer Hierarchy\Sound\player\steps\asylum\step_hollow_3		12316
-	1036904178	player_gun_equip_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0F\{0F5E6E47-6902-B0F9-4650-FFDC0E77129F}.wem		\Actor-Mixer Hierarchy\Sound\player\equips\gun_equip\player_gun_equip_2		65830
-	1058532395	piano_pedal_thump	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2C\{2C359D61-4A5F-8C2B-68EF-8D825C4BF8A3}.wem		\Actor-Mixer Hierarchy\Sound\player\damage\piano_pedal_thump		82036
+	24468781	step_crunch_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{9924DA26-C8F9-9E75-DAF5-42216AD84CBA}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_4		26042
+	48041668	step_crunch_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\EE\{EECEB0A0-342A-E1AB-9796-7F400B19B3BC}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_7		19490
+	56300568	step_crunch_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\94\{943E4CB3-2AD5-533D-022B-595E88662820}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_3		20852
+	80304111	ghost_death_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4C\{4C372AFC-089E-D85E-216B-483EE930F62B}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\death\ghost_death_1		75968
+	92286469	paper	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\40\{40B1494D-D582-C8FB-8E71-DB6B1F077DBA}.wem		\Actor-Mixer Hierarchy\Sound\items\paper		72944
+	94365818	player_step_asylum_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\C0\{C0129277-083B-EB71-39D7-24912CE559CA}.wem		\Actor-Mixer Hierarchy\Sound\player\step\asylum\player_step_asylum_5		13594
+	95587813	piano_pedal_hit_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4F\{4F22D4E3-3C62-76E7-2158-2C90516CE717}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_hit_2		88092
+	131495885	pick_up	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\F1\{F19ECF68-C1C7-1F27-0113-961CAC3E7FDA}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\pick_up		82658
+	145996034	player_step_asylum_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\3E\{3E0E15AA-F028-6809-9D5D-B10F9DD7A9F1}.wem		\Actor-Mixer Hierarchy\Sound\player\step\asylum\player_step_asylum_3		13534
+	148621502	piano_pedal_hit_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E0\{E01A3A90-B756-8B78-FC64-3DB1958871F0}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_hit_5		70136
+	161958754	step_7	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4C\{4C21E771-30CA-C84A-520E-BDE57DE6090A}.wem		\Actor-Mixer Hierarchy\Sound\player\step\crypt\step_7		3586
+	179153603	death	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{5142F311-2918-B982-7E87-A9A9DA2EB8C8}.wem		\Actor-Mixer Hierarchy\Sound\player\death		5177896
+	186334197	player_swing_knife_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{80044934-BC5C-C52D-34F0-7D69AD8CED59}.wem		\Actor-Mixer Hierarchy\Sound\weapons\knife\swing\player_swing_knife_1		14594
+	201069251	player_step_asylum_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\27\{27C79D96-942F-69D1-0359-DA2E5C12B9FF}.wem		\Actor-Mixer Hierarchy\Sound\player\step\asylum\player_step_asylum_1		13470
+	209408882	type_6	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\AF\{AF192310-8ABC-479E-4866-EFA2B9CD7ED8}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_6		20908
+	210746355	piano_pedal_hit_8	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\99\{995371A2-FF38-EA46-AC6E-8B0E65FBA346}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_hit_8		105236
+	215435431	step_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\57\{5748B8C5-8EE5-38B6-A377-C0A8016343AC}.wem		\Actor-Mixer Hierarchy\Sound\player\step\crypt\step_5		6478
+	270499484	drop	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\C4\{C4FB9788-A61C-38F5-87A3-D76C97ABA775}.wem		\Actor-Mixer Hierarchy\Sound\weapons\flashlight\drop		3288
+	331452829	pick_up	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2A\{2ADB92CA-F673-2E4E-EF17-FE060B7680ED}.wem		\Actor-Mixer Hierarchy\Sound\weapons\rifle\pick_up		45752
+	369113679	woof	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\ED\{EDD36B8C-1751-3BAD-AEAC-601B673B431C}.wem		\Actor-Mixer Hierarchy\Sound\enemies\wolf\woof		31742
+	369262581	dry_fire	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\EB\{EBF633B6-149E-C995-B509-D2C6B8850510}.wem		\Actor-Mixer Hierarchy\Sound\weapons\rifle\dry_fire		14984
+	380878661	player_step_asylum_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\56\{562B10B7-90E3-CBBA-49AA-28BC5008607A}.wem		\Actor-Mixer Hierarchy\Sound\player\step\asylum\player_step_asylum_4		13482
+	420394761	ghost_death_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\57\{57327361-25C0-3D18-40FF-75BA130DF9BD}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\death\ghost_death_2		85826
+	422511376	drop	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BB\{BBF156AE-C428-54A1-2DEA-990E60FBCDB8}.wem		\Actor-Mixer Hierarchy\Sound\weapons\rifle\drop		55368
+	424443976	ghost_damage_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\C5\{C52571D9-6549-EEB2-4845-19CA52D5A29A}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\hurt\ghost_damage_2		43746
+	461370265	player_swing_knife_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A2\{A2DB9622-2697-FD02-92D7-4BB55AD3F5FB}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\swing\player_swing_knife_3		17348
+	482751254	player_step_asylum_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\C8\{C85A29E0-5363-5C85-CD2A-92ECCB42F423}.wem		\Actor-Mixer Hierarchy\Sound\player\step\asylum\player_step_asylum_2		13478
+	499180670	type_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\96\{967630E4-A0A2-B3CE-5040-468F03B0E874}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_1		23948
+	501407158	pick_up	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0E\{0EC2DDA5-D89E-CD8E-2E68-1781B4F8BD7F}.wem		\Actor-Mixer Hierarchy\Sound\weapons\pistol\pick_up		46502
+	516963493	type_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\FF\{FF2BFCB7-810C-16A7-4DF8-98308ED440B6}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_2		21820
+	524831652	player_swing_knife_9	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\87\{87D03910-0081-F8A3-2AEC-2FDA21FD4A4B}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\swing\player_swing_knife_9		15718
+	549586425	shoot	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BE\{BE19EE8D-4589-58B2-1066-AEC89CA6550E}.wem		\Actor-Mixer Hierarchy\Sound\weapons\rifle\shoot		22962
+	559317701	piano_pedal_hit_6	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4A\{4AD5A53C-F6C0-5416-5917-FF4FE7895AB5}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_hit_6		115308
+	567429153	ghost_damage_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\3B\{3B3453BC-DB64-0B7F-E97D-491FA5332C3A}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\hurt\ghost_damage_3		32120
+	568874848	pick_up	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A6\{A6D27A9E-2333-19C5-3DAA-24157C572A36}.wem		\Actor-Mixer Hierarchy\Sound\weapons\knife\pick_up		22772
+	597391421	player_swing_knife_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{515FA8C6-6F44-4913-1F7F-0C33CF50DFB7}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\swing\player_swing_knife_4		16728
+	602426104	type_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\98\{984DD8BC-EAF1-DC1D-1D9C-C89563C470D2}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_3		20576
+	613076162	step_crunch_15	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\80\{804939BF-97EE-0949-47B4-22697A545B04}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_15		20960
+	643587630	type_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\BF\{BF115A0A-983F-9B11-1A36-79409FBD86EC}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_4		26044
+	719220187	alert	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0A\{0A5E38C1-9319-92E5-0709-92C1F994AF9B}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\alert		93592
+	751486990	ghost_breath_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\4E\{4E2EACC8-73C5-981F-E776-DD6AC8EC6D54}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\passive\ghost_breath_1		222092
+	761429720	player_swing_knife_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\8F\{8FA1A719-6DDA-19FE-8DD3-00B5A334BA1F}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\swing\player_swing_knife_13		14876
+	762107716	new_game	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\61\{61EB6234-9D64-5DBA-9203-18FC0204E2F7}.wem		\Actor-Mixer Hierarchy\Sound\menu\new_game		330244
+	787805895	step_crunch_13	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\51\{51C0B426-623B-20BB-164A-2B46CA54E634}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_13		17434
+	796046324	ghost_damage_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E0\{E06F3BA9-61BB-2A0F-1C74-69AB67483FAF}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\hurt\ghost_damage_1		46590
+	835036213	drop	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\7A\{7A15DFBE-3822-5C75-0479-79E2533F5421}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\drop		31156
+	851772844	step_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\B9\{B9902429-5E29-9B08-01A8-CB3575A5CF3F}.wem		\Actor-Mixer Hierarchy\Sound\player\step\crypt\step_3		6172
+	864530334	player_swing_knife_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\98\{98121F59-1096-4440-47E1-B4A3D51D602A}.wem		\Actor-Mixer Hierarchy\Sound\weapons\saber\swing\player_swing_knife_2		16394
+	894862109	ghost_breath_3	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0B\{0BE57C87-8161-3489-E0FD-4DCD4EDC59A8}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\passive\ghost_breath_3		215626
+	903123993	dry_fire	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\17\{175EF31E-275E-36CB-7D22-1859C2755A9D}.wem		\Actor-Mixer Hierarchy\Sound\weapons\pistol\dry_fire		44656
+	923084543	piano_pedal_hit	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\E5\{E5F33F27-DC43-2EBA-E7F7-92B05F27BD9C}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_hit		80404
+	926497452	ghost_breath_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\72\{721489C5-640C-F0E0-9E0B-07EDC42A0CED}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\passive\ghost_breath_2		326612
+	939163955	drop	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\1F\{1F31BC11-210E-21BD-8370-1BFE8C44955A}.wem		\Actor-Mixer Hierarchy\Sound\weapons\knife\drop		24134
+	994139354	step_crunch_2	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\DD\{DDDC236F-5AA2-0E80-346B-48867ED1718F}.wem		\Actor-Mixer Hierarchy\Sound\player\step\forest\step_crunch_2		20134
+	1000585856	step_1	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\A7\{A78DF72A-AB36-9CB0-5981-77D57D3C8BB0}.wem		\Actor-Mixer Hierarchy\Sound\player\step\crypt\step_1		5004
+	1003642097	ghost_breath_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0C\{0CDA82E1-F585-8DF5-4D45-7FC049451D9D}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\passive\ghost_breath_4		192000
+	1036904178	drop	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\0F\{0F5E6E47-6902-B0F9-4650-FFDC0E77129F}.wem		\Actor-Mixer Hierarchy\Sound\weapons\pistol\drop		65830
+	1045942528	ghost_damage_4	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\53\{53CAAA72-8E4B-9F3E-1517-041A6CE96761}.wem		\Actor-Mixer Hierarchy\Sound\enemies\ghost\hurt\ghost_damage_4		36644
+	1049429951	type_5	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\B5\{B57BD17E-A98B-7F53-EF3C-516A4F79BA83}.wem		\Actor-Mixer Hierarchy\Sound\menu\type\type_5		22208
+	1054660686	use	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\5D\{5D6C8CF5-9672-08B9-F6DD-93B361C92480}.wem		\Actor-Mixer Hierarchy\Sound\weapons\flashlight\use		14996
+	1058532395	piano_pedal_thump	C:\Users\benap\github\wwise_mr_fictitious\sound\.cache\2C\{2C359D61-4A5F-8C2B-68EF-8D825C4BF8A3}.wem		\Actor-Mixer Hierarchy\Sound\player\hurt\piano_pedal_thump		82036
 

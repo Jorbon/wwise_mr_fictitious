@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4E368268-CB63-4A12-A4E9-39BF9B244209}",
     "Language": "SFX",
-    "Hash": "{953CB013-6BE9-FFE1-C4F0-6EA92C7030D2}",
+    "Hash": "{61AE1523-9FC7-EF04-F9E4-F86A3736ECA2}",
     "ObjectPath": "\\SoundBanks\\Sound\\sound",
     "ShortName": "sound",
     "Path": "623086306.bnk",
@@ -40,20 +40,28 @@
       "CachePath": "94/{943E4CB3-2AD5-533D-022B-595E88662820}.wem"
      },
      {
-      "Id": "65555140",
+      "Id": "80304111",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "step_hollow_4.wav",
-      "CachePath": "D9/{D95050C3-F5C7-E988-F4AF-648A8A2F5BD0}.wem"
+      "ShortName": "ghost_death_1.wav",
+      "CachePath": "4C/{4C372AFC-089E-D85E-216B-483EE930F62B}.wem"
      },
      {
-      "Id": "67559558",
+      "Id": "92286469",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "step_wood_2.wav",
-      "CachePath": "A3/{A372E2EF-B5E4-9E7A-16A5-6C4D725FC148}.wem"
+      "ShortName": "paper.wav",
+      "CachePath": "40/{40B1494D-D582-C8FB-8E71-DB6B1F077DBA}.wem"
+     },
+     {
+      "Id": "94365818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_step_asylum_5.wav",
+      "CachePath": "C0/{C0129277-083B-EB71-39D7-24912CE559CA}.wem"
      },
      {
       "Id": "95587813",
@@ -64,12 +72,20 @@
       "CachePath": "4F/{4F22D4E3-3C62-76E7-2158-2C90516CE717}.wem"
      },
      {
-      "Id": "119096001",
+      "Id": "131495885",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "player_knife_equip.wav",
-      "CachePath": "FD/{FDCEA443-3DAF-4890-CA13-745C41EBB0E6}.wem"
+      "ShortName": "sword_pick_up.wav",
+      "CachePath": "F1/{F19ECF68-C1C7-1F27-0113-961CAC3E7FDA}.wem"
+     },
+     {
+      "Id": "145996034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_step_asylum_3.wav",
+      "CachePath": "3E/{3E0E15AA-F028-6809-9D5D-B10F9DD7A9F1}.wem"
      },
      {
       "Id": "148621502",
@@ -104,6 +120,22 @@
       "CachePath": "80/{80044934-BC5C-C52D-34F0-7D69AD8CED59}.wem"
      },
      {
+      "Id": "201069251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_step_asylum_1.wav",
+      "CachePath": "27/{27C79D96-942F-69D1-0359-DA2E5C12B9FF}.wem"
+     },
+     {
+      "Id": "209408882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "type_6.wav",
+      "CachePath": "AF/{AF192310-8ABC-479E-4866-EFA2B9CD7ED8}.wem"
+     },
+     {
       "Id": "210746355",
       "Language": "SFX",
       "Streaming": "false",
@@ -120,12 +152,12 @@
       "CachePath": "57/{5748B8C5-8EE5-38B6-A377-C0A8016343AC}.wem"
      },
      {
-      "Id": "225767480",
+      "Id": "270499484",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "player_gun_equip_1.wav",
-      "CachePath": "4E/{4E13F51E-8C1B-A3F6-AE8F-6E7D50133430}.wem"
+      "ShortName": "flashlight_use.wav",
+      "CachePath": "C4/{C4FB9788-A61C-38F5-87A3-D76C97ABA775}.wem"
      },
      {
       "Id": "331452829",
@@ -144,12 +176,44 @@
       "CachePath": "ED/{EDD36B8C-1751-3BAD-AEAC-601B673B431C}.wem"
      },
      {
+      "Id": "369262581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rifle_dry_fire.wav",
+      "CachePath": "EB/{EBF633B6-149E-C995-B509-D2C6B8850510}.wem"
+     },
+     {
+      "Id": "380878661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_step_asylum_4.wav",
+      "CachePath": "56/{562B10B7-90E3-CBBA-49AA-28BC5008607A}.wem"
+     },
+     {
+      "Id": "420394761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_death_2.wav",
+      "CachePath": "57/{57327361-25C0-3D18-40FF-75BA130DF9BD}.wem"
+     },
+     {
       "Id": "422511376",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_gun_stow_1.wav",
       "CachePath": "BB/{BBF156AE-C428-54A1-2DEA-990E60FBCDB8}.wem"
+     },
+     {
+      "Id": "424443976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_damage_2.wav",
+      "CachePath": "C5/{C52571D9-6549-EEB2-4845-19CA52D5A29A}.wem"
      },
      {
       "Id": "461370265",
@@ -160,12 +224,36 @@
       "CachePath": "A2/{A2DB9622-2697-FD02-92D7-4BB55AD3F5FB}.wem"
      },
      {
+      "Id": "482751254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_step_asylum_2.wav",
+      "CachePath": "C8/{C85A29E0-5363-5C85-CD2A-92ECCB42F423}.wem"
+     },
+     {
+      "Id": "499180670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "type_1.wav",
+      "CachePath": "96/{967630E4-A0A2-B3CE-5040-468F03B0E874}.wem"
+     },
+     {
       "Id": "501407158",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_gun2_stow_1.wav",
       "CachePath": "0E/{0EC2DDA5-D89E-CD8E-2E68-1781B4F8BD7F}.wem"
+     },
+     {
+      "Id": "516963493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "type_2.wav",
+      "CachePath": "FF/{FF2BFCB7-810C-16A7-4DF8-98308ED440B6}.wem"
      },
      {
       "Id": "524831652",
@@ -184,14 +272,6 @@
       "CachePath": "BE/{BE19EE8D-4589-58B2-1066-AEC89CA6550E}.wem"
      },
      {
-      "Id": "552050108",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "step_hollow_1.wav",
-      "CachePath": "36/{365AA808-94C6-3961-6046-DF86755B77C4}.wem"
-     },
-     {
       "Id": "559317701",
       "Language": "SFX",
       "Streaming": "false",
@@ -200,12 +280,20 @@
       "CachePath": "4A/{4AD5A53C-F6C0-5416-5917-FF4FE7895AB5}.wem"
      },
      {
-      "Id": "592210594",
+      "Id": "567429153",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "step_hollow_2.wav",
-      "CachePath": "93/{9359C80E-C738-61E0-60E3-BC4DE658EBEB}.wem"
+      "ShortName": "ghost_damage_3.wav",
+      "CachePath": "3B/{3B3453BC-DB64-0B7F-E97D-491FA5332C3A}.wem"
+     },
+     {
+      "Id": "568874848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "knife_pick_up.wav",
+      "CachePath": "A6/{A6D27A9E-2333-19C5-3DAA-24157C572A36}.wem"
      },
      {
       "Id": "597391421",
@@ -216,6 +304,14 @@
       "CachePath": "51/{515FA8C6-6F44-4913-1F7F-0C33CF50DFB7}.wem"
      },
      {
+      "Id": "602426104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "type_3.wav",
+      "CachePath": "98/{984DD8BC-EAF1-DC1D-1D9C-C89563C470D2}.wem"
+     },
+     {
       "Id": "613076162",
       "Language": "SFX",
       "Streaming": "false",
@@ -224,12 +320,28 @@
       "CachePath": "80/{804939BF-97EE-0949-47B4-22697A545B04}.wem"
      },
      {
-      "Id": "732340735",
+      "Id": "643587630",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "step_wood_1.wav",
-      "CachePath": "3C/{3CCAB8B8-DEBD-50C3-7961-73F5357C1EBC}.wem"
+      "ShortName": "type_4.wav",
+      "CachePath": "BF/{BF115A0A-983F-9B11-1A36-79409FBD86EC}.wem"
+     },
+     {
+      "Id": "719220187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_alert.wav",
+      "CachePath": "0A/{0A5E38C1-9319-92E5-0709-92C1F994AF9B}.wem"
+     },
+     {
+      "Id": "751486990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_breath_1.wav",
+      "CachePath": "4E/{4E2EACC8-73C5-981F-E776-DD6AC8EC6D54}.wem"
      },
      {
       "Id": "761429720",
@@ -240,12 +352,36 @@
       "CachePath": "8F/{8FA1A719-6DDA-19FE-8DD3-00B5A334BA1F}.wem"
      },
      {
+      "Id": "762107716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "carriage_return.wav",
+      "CachePath": "61/{61EB6234-9D64-5DBA-9203-18FC0204E2F7}.wem"
+     },
+     {
       "Id": "787805895",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "step_crunch_13.wav",
       "CachePath": "51/{51C0B426-623B-20BB-164A-2B46CA54E634}.wem"
+     },
+     {
+      "Id": "796046324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_damage_1.wav",
+      "CachePath": "E0/{E06F3BA9-61BB-2A0F-1C74-69AB67483FAF}.wem"
+     },
+     {
+      "Id": "835036213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sword_drop.wav",
+      "CachePath": "7A/{7A15DFBE-3822-5C75-0479-79E2533F5421}.wem"
      },
      {
       "Id": "851772844",
@@ -264,20 +400,20 @@
       "CachePath": "98/{98121F59-1096-4440-47E1-B4A3D51D602A}.wem"
      },
      {
+      "Id": "894862109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_breath_3.wav",
+      "CachePath": "0B/{0BE57C87-8161-3489-E0FD-4DCD4EDC59A8}.wem"
+     },
+     {
       "Id": "903123993",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_gun_stow_2.wav",
       "CachePath": "17/{175EF31E-275E-36CB-7D22-1859C2755A9D}.wem"
-     },
-     {
-      "Id": "906602177",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "step_wood_3.wav",
-      "CachePath": "21/{21BEB5B1-CC5E-A255-3EF6-6916B9192C96}.wem"
      },
      {
       "Id": "923084543",
@@ -288,12 +424,20 @@
       "CachePath": "E5/{E5F33F27-DC43-2EBA-E7F7-92B05F27BD9C}.wem"
      },
      {
-      "Id": "988350661",
+      "Id": "926497452",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "player_gun2_stow_2.wav",
-      "CachePath": "08/{08CF5242-CF33-43F5-D653-06F9C396A42D}.wem"
+      "ShortName": "ghost_breath_2.wav",
+      "CachePath": "72/{721489C5-640C-F0E0-9E0B-07EDC42A0CED}.wem"
+     },
+     {
+      "Id": "939163955",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "knife_break.wav",
+      "CachePath": "1F/{1F31BC11-210E-21BD-8370-1BFE8C44955A}.wem"
      },
      {
       "Id": "994139354",
@@ -312,12 +456,12 @@
       "CachePath": "A7/{A78DF72A-AB36-9CB0-5981-77D57D3C8BB0}.wem"
      },
      {
-      "Id": "1004606971",
+      "Id": "1003642097",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "step_hollow_3.wav",
-      "CachePath": "27/{27E23F9A-3E6B-ADF3-343D-6F115AB972A2}.wem"
+      "ShortName": "ghost_breath_4.wav",
+      "CachePath": "0C/{0CDA82E1-F585-8DF5-4D45-7FC049451D9D}.wem"
      },
      {
       "Id": "1036904178",
@@ -326,6 +470,30 @@
       "Location": "Memory",
       "ShortName": "player_gun_equip_2.wav",
       "CachePath": "0F/{0F5E6E47-6902-B0F9-4650-FFDC0E77129F}.wem"
+     },
+     {
+      "Id": "1045942528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ghost_damage_4.wav",
+      "CachePath": "53/{53CAAA72-8E4B-9F3E-1517-041A6CE96761}.wem"
+     },
+     {
+      "Id": "1049429951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "type_5.wav",
+      "CachePath": "B5/{B57BD17E-A98B-7F53-EF3C-516A4F79BA83}.wem"
+     },
+     {
+      "Id": "1054660686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "flashlight_use.wav",
+      "CachePath": "5D/{5D6C8CF5-9672-08B9-F6DD-93B361C92480}.wem"
      },
      {
       "Id": "1058532395",
@@ -339,16 +507,206 @@
     "Plugins": {
      "Custom": [
       {
+       "Id": "272084942",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\weapons\\pistol\\shoot\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{C0E5F80F-A20A-407A-9B5C-B2C0723732B9}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "373386525",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\weapons\\knife\\pick_up\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{A6ABF09E-96E3-406C-831A-6E1EAD063A4C}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "537409510",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\weapons\\rifle\\shoot\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{1D8DE31D-5545-4A2B-BBFF-A02E364F0186}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "762379535",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\weapons\\knife\\drop\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{690F5444-DB6A-4D3B-9DA4-FBD9D8954197}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "811656921",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\enemies\\ghost\\alert\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{E1081FBA-EB86-414E-874B-9CBB8A67B720}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
        "Id": "1018070656",
        "Name": "Guitar Distortion (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\player\\damage\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\player\\hurt\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
        "GUID": "{E66D8DD9-505D-470B-BFBB-7B8E3363EDFC}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "1026043103",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\enemies\\ghost\\death\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{DB6D513A-A17B-4475-9453-67F9A490045D}",
        "LibName": "Wwise Guitar Distortion",
        "LibId": "8257539"
       }
      ]
     },
     "Events": [
+     {
+      "Id": "4042321219",
+      "Name": "big_statue_alert",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_alert",
+      "GUID": "{81955D5E-EEA3-4731-980C-5908F3A501EC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2677018071",
+      "Name": "big_statue_dash",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_dash",
+      "GUID": "{987AFE1E-5A76-4E79-B218-3F057AB9FBA9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2871720991",
+      "Name": "big_statue_death",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_death",
+      "GUID": "{B2CEE166-4551-4A64-8D75-161412F47DC8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2151536549",
+      "Name": "big_statue_ground_pound",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_ground_pound",
+      "GUID": "{77C73481-5CA4-485D-8029-7FE8354F79D2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3117316584",
+      "Name": "big_statue_hurt",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_hurt",
+      "GUID": "{1EBDF418-82B7-438A-848E-A471AFEA470D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4015422482",
+      "Name": "big_statue_not_hurt",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_not_hurt",
+      "GUID": "{194EDB29-F574-4003-A21A-AD65ECC12224}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2382554986",
+      "Name": "big_statue_passive",
+      "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_passive",
+      "GUID": "{93F0F0C4-79D6-4546-9658-921B2AA6F49F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "447222757",
+      "Name": "cocaine_drop",
+      "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_drop",
+      "GUID": "{5FA2833A-1BCD-4D52-84BC-22CE729E537E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "573247355",
+      "Name": "cocaine_pick_up",
+      "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_pick_up",
+      "GUID": "{450608C3-C387-4122-9EAC-9A87E198FBCD}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2577312975",
+      "Name": "cocaine_use",
+      "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_use",
+      "GUID": "{80A9A5F2-800D-4824-827C-0DD3D1CEF7BE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1153302829",
+      "Name": "flashlight_drop",
+      "ObjectPath": "\\Events\\Sound\\weapons\\flashlight\\flashlight_drop",
+      "GUID": "{92F47776-FBAA-4762-AADF-27794550E5D1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.105538525",
+      "DurationMax": "0.105538525",
+      "MediaRefs": [
+       {
+        "Id": "270499484"
+       }
+      ]
+     },
+     {
+      "Id": "1909822451",
+      "Name": "flashlight_pick_up",
+      "ObjectPath": "\\Events\\Sound\\weapons\\flashlight\\flashlight_pick_up",
+      "GUID": "{7DB0843A-AC08-459E-8F57-E3C496D46A5D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15520833",
+      "DurationMax": "0.15520833",
+      "MediaRefs": [
+       {
+        "Id": "1054660686"
+       }
+      ]
+     },
+     {
+      "Id": "909959991",
+      "Name": "flashlight_use",
+      "ObjectPath": "\\Events\\Sound\\weapons\\flashlight\\flashlight_use",
+      "GUID": "{69016000-D27B-4E83-A4D4-0E915E421C87}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15520833",
+      "DurationMax": "0.15520833",
+      "MediaRefs": [
+       {
+        "Id": "1054660686"
+       }
+      ]
+     },
      {
       "Id": "2442957673",
       "Name": "game_area_asylum",
@@ -426,9 +784,494 @@
       ]
      },
      {
-      "Id": "2074073782",
-      "Name": "player_damage",
-      "ObjectPath": "\\Events\\Sound\\player\\player_damage",
+      "Id": "4288698113",
+      "Name": "ghost_alert",
+      "ObjectPath": "\\Events\\Sound\\enemies\\ghost\\ghost_alert",
+      "GUID": "{5F38A657-51BC-43D6-9B14-C01433265C43}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.77299947",
+      "DurationMax": "0.9739183",
+      "MediaRefs": [
+       {
+        "Id": "719220187"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "811656921"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "51221297",
+      "Name": "ghost_death",
+      "ObjectPath": "\\Events\\Sound\\enemies\\ghost\\ghost_death",
+      "GUID": "{FE7B64AF-69F1-49E2-9B18-7A6256B0D1E7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.99575764",
+      "DurationMax": "1.4175822",
+      "MediaRefs": [
+       {
+        "Id": "80304111"
+       },
+       {
+        "Id": "420394761"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1026043103"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4028753314",
+      "Name": "ghost_hurt",
+      "ObjectPath": "\\Events\\Sound\\enemies\\ghost\\ghost_hurt",
+      "GUID": "{EEA77AF9-61F1-4F32-B0E6-8FB3240160AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2101469",
+      "DurationMax": "0.38440603",
+      "MediaRefs": [
+       {
+        "Id": "424443976"
+       },
+       {
+        "Id": "567429153"
+       },
+       {
+        "Id": "796046324"
+       },
+       {
+        "Id": "1045942528"
+       }
+      ]
+     },
+     {
+      "Id": "84128576",
+      "Name": "ghost_passive",
+      "ObjectPath": "\\Events\\Sound\\enemies\\ghost\\ghost_passive",
+      "GUID": "{F30F5D03-67A9-4262-AB23-EB69BE72B44D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9989957",
+      "DurationMax": "5.3990955",
+      "MediaRefs": [
+       {
+        "Id": "751486990"
+       },
+       {
+        "Id": "894862109"
+       },
+       {
+        "Id": "926497452"
+       },
+       {
+        "Id": "1003642097"
+       }
+      ]
+     },
+     {
+      "Id": "1868357799",
+      "Name": "horseman_alert",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_alert",
+      "GUID": "{0E856E30-790A-445F-A168-F0241F031392}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1952085827",
+      "Name": "horseman_death",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_death",
+      "GUID": "{34119CFD-7165-4C60-BFAE-0CE695E59592}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3105223276",
+      "Name": "horseman_hurt",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_hurt",
+      "GUID": "{E14DDA7E-3897-4D6A-9321-CB7EFEAFF993}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "474579462",
+      "Name": "horseman_passive",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_passive",
+      "GUID": "{3AC94FC5-3D60-4D3A-A6EC-4E00D846CECB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1408910503",
+      "Name": "horseman_shadow",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_shadow",
+      "GUID": "{1E32D2C7-BCE4-49E5-9C00-7E4A04D318CB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1518333236",
+      "Name": "horseman_shoot",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_shoot",
+      "GUID": "{49253B24-2E32-4E21-A908-342EA03A4087}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "904885164",
+      "Name": "horseman_unalert",
+      "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_unalert",
+      "GUID": "{7AA532F0-528A-40D4-BDF8-FEFF3A0DD564}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3291325616",
+      "Name": "knife_drop",
+      "ObjectPath": "\\Events\\Sound\\weapons\\knife\\knife_drop",
+      "GUID": "{4C700300-175E-4E7F-A798-36EFC0EC8523}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25039583",
+      "DurationMax": "0.25039583",
+      "MediaRefs": [
+       {
+        "Id": "939163955"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "762379535"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4126897460",
+      "Name": "knife_pick_up",
+      "ObjectPath": "\\Events\\Sound\\weapons\\knife\\knife_pick_up",
+      "GUID": "{3353DD75-FC3E-4CD8-810A-6D63792B2D64}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22948317",
+      "DurationMax": "0.24312896",
+      "MediaRefs": [
+       {
+        "Id": "568874848"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "373386525"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3430418271",
+      "Name": "knife_swing",
+      "ObjectPath": "\\Events\\Sound\\weapons\\knife\\knife_swing",
+      "GUID": "{6792BDBA-9307-475E-A4D2-3334A9D1001E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1131378",
+      "DurationMax": "0.15111609",
+      "MediaRefs": [
+       {
+        "Id": "186334197"
+       },
+       {
+        "Id": "461370265"
+       },
+       {
+        "Id": "524831652"
+       },
+       {
+        "Id": "597391421"
+       },
+       {
+        "Id": "761429720"
+       },
+       {
+        "Id": "864530334"
+       }
+      ]
+     },
+     {
+      "Id": "3353988744",
+      "Name": "mendoza_alert",
+      "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_alert",
+      "GUID": "{F21C5246-D106-491B-8F77-F3B19F73AD34}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1759798504",
+      "Name": "mendoza_death",
+      "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_death",
+      "GUID": "{270BDD58-17A7-4004-ACC5-B4B3E9BE531A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3131033877",
+      "Name": "mendoza_hurt",
+      "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_hurt",
+      "GUID": "{E65898B7-E777-40E9-BA45-18D9CF24BFDE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3118712133",
+      "Name": "mendoza_passive",
+      "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_passive",
+      "GUID": "{0C48994D-9408-43A0-AAEA-7ED01B56B187}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2381121692",
+      "Name": "mendoza_throw_syringe",
+      "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_throw_syringe",
+      "GUID": "{4B88AD9B-BAAB-45E9-BC2A-8F36E368434B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "760777789",
+      "Name": "menu_click",
+      "ObjectPath": "\\Events\\Sound\\menu\\menu_click",
+      "GUID": "{336FAE3B-7882-4048-AD7C-0417FC6F6F4E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20135984",
+      "DurationMax": "0.28636405",
+      "MediaRefs": [
+       {
+        "Id": "209408882"
+       },
+       {
+        "Id": "499180670"
+       },
+       {
+        "Id": "516963493"
+       },
+       {
+        "Id": "602426104"
+       },
+       {
+        "Id": "643587630"
+       },
+       {
+        "Id": "1049429951"
+       }
+      ]
+     },
+     {
+      "Id": "1819231266",
+      "Name": "menu_text",
+      "ObjectPath": "\\Events\\Sound\\menu\\menu_text",
+      "GUID": "{41A1E7F8-7B35-4B29-9F76-455C1059401C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20135984",
+      "DurationMax": "0.28636405",
+      "MediaRefs": [
+       {
+        "Id": "209408882"
+       },
+       {
+        "Id": "499180670"
+       },
+       {
+        "Id": "516963493"
+       },
+       {
+        "Id": "602426104"
+       },
+       {
+        "Id": "643587630"
+       },
+       {
+        "Id": "1049429951"
+       }
+      ]
+     },
+     {
+      "Id": "3755188775",
+      "Name": "morphine_drop",
+      "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_drop",
+      "GUID": "{00BC029E-BAE8-4EAE-AA9A-8F4285718E31}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "391797197",
+      "Name": "morphine_pick_up",
+      "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_pick_up",
+      "GUID": "{0E1B4D37-9418-4A09-8332-317AC1BC3F6C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2909779513",
+      "Name": "morphine_use",
+      "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_use",
+      "GUID": "{53E1A23F-2F4F-495A-A8AC-FAA4D93C60A3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "477670102",
+      "Name": "new_game",
+      "ObjectPath": "\\Events\\Sound\\menu\\new_game",
+      "GUID": "{34BEC702-82FB-4126-9F08-4BF3667DD5C0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.4390416",
+      "DurationMax": "3.4390416",
+      "MediaRefs": [
+       {
+        "Id": "762107716"
+       }
+      ]
+     },
+     {
+      "Id": "4118296805",
+      "Name": "note_pick_up",
+      "ObjectPath": "\\Events\\Sound\\items\\note_pick_up",
+      "GUID": "{3801ECA2-1241-4E23-85C8-9FC3CDFE6A2F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5684811",
+      "DurationMax": "0.71624124",
+      "MediaRefs": [
+       {
+        "Id": "92286469"
+       }
+      ]
+     },
+     {
+      "Id": "1281635916",
+      "Name": "pistol_drop",
+      "ObjectPath": "\\Events\\Sound\\weapons\\pistol\\pistol_drop",
+      "GUID": "{9944A803-F2B6-4361-893C-53B329B6580A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33843252",
+      "DurationMax": "0.35855675",
+      "MediaRefs": [
+       {
+        "Id": "1036904178"
+       }
+      ]
+     },
+     {
+      "Id": "1351494285",
+      "Name": "pistol_dry_fire",
+      "ObjectPath": "\\Events\\Sound\\weapons\\pistol\\pistol_dry_fire",
+      "GUID": "{115ED144-635D-4116-87F1-155046D67B94}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14704964",
+      "DurationMax": "0.15579365",
+      "MediaRefs": [
+       {
+        "Id": "903123993"
+       }
+      ]
+     },
+     {
+      "Id": "1977155416",
+      "Name": "pistol_pick_up",
+      "ObjectPath": "\\Events\\Sound\\weapons\\pistol\\pistol_pick_up",
+      "GUID": "{8FC77AC6-17C6-4954-B8F1-B46EBF8094DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26356483",
+      "DurationMax": "0.2792372",
+      "MediaRefs": [
+       {
+        "Id": "501407158"
+       }
+      ]
+     },
+     {
+      "Id": "2124970216",
+      "Name": "pistol_shoot",
+      "ObjectPath": "\\Events\\Sound\\weapons\\pistol\\pistol_shoot",
+      "GUID": "{0FF42966-D829-4F21-8875-437ECE78A64F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20281816",
+      "DurationMax": "0.2087612",
+      "MediaRefs": [
+       {
+        "Id": "549586425"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "272084942"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3083087645",
+      "Name": "player_death",
+      "ObjectPath": "\\Events\\Sound\\player\\player_death",
+      "GUID": "{B185B9C7-9A21-49E6-A6CD-EEFCF11D2E79}",
+      "DurationType": "OneShot",
+      "DurationMin": "26.967709",
+      "DurationMax": "26.967709",
+      "MediaRefs": [
+       {
+        "Id": "179153603"
+       }
+      ]
+     },
+     {
+      "Id": "2611567045",
+      "Name": "player_hit_enemy",
+      "ObjectPath": "\\Events\\Sound\\player\\player_hit_enemy",
+      "GUID": "{36B63A20-C101-4591-89B8-7E75DDD86C6F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1068092414",
+      "Name": "player_hurt",
+      "ObjectPath": "\\Events\\Sound\\player\\player_hurt",
       "GUID": "{3D1DECD5-0DD6-493F-B733-25443788D5CD}",
       "DurationType": "OneShot",
       "DurationMin": "0.32498983",
@@ -462,189 +1305,14 @@
       }
      },
      {
-      "Id": "3083087645",
-      "Name": "player_death",
-      "ObjectPath": "\\Events\\Sound\\player\\player_death",
-      "GUID": "{B185B9C7-9A21-49E6-A6CD-EEFCF11D2E79}",
-      "DurationType": "OneShot",
-      "DurationMin": "26.967709",
-      "DurationMax": "26.967709",
-      "MediaRefs": [
-       {
-        "Id": "179153603"
-       }
-      ]
-     },
-     {
-      "Id": "336962148",
-      "Name": "player_gun2_equip",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun2_equip",
-      "GUID": "{7CED2FD0-384B-4DEA-9E33-836043527E2F}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.47558713",
-      "DurationMax": "0.47558713",
-      "MediaRefs": [
-       {
-        "Id": "331452829"
-       }
-      ]
-     },
-     {
-      "Id": "2888700573",
-      "Name": "player_gun2_shoot",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun2_shoot",
-      "GUID": "{469A564F-EAF7-4FB6-B293-7C1F020349E6}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1068874439",
-      "Name": "player_gun2_stow",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun2_stow",
-      "GUID": "{D7B0AFD5-7AC7-4B96-AAC6-A260C341C001}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.3712003",
-      "DurationMax": "0.48338002",
-      "MediaRefs": [
-       {
-        "Id": "501407158"
-       },
-       {
-        "Id": "988350661"
-       }
-      ]
-     },
-     {
-      "Id": "4048185180",
-      "Name": "player_gun_equip",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun_equip",
-      "GUID": "{9F8BCA68-BFB7-4E13-9E25-A33C938AE6F2}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.53885984",
-      "DurationMax": "0.6847298",
-      "MediaRefs": [
-       {
-        "Id": "225767480"
-       },
-       {
-        "Id": "1036904178"
-       }
-      ]
-     },
-     {
-      "Id": "3655591093",
-      "Name": "player_gun_shoot",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun_shoot",
-      "GUID": "{328C0540-9122-480B-9242-E5E5ED35C160}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.2555349",
-      "DurationMax": "0.2630226",
-      "MediaRefs": [
-       {
-        "Id": "549586425"
-       }
-      ]
-     },
-     {
-      "Id": "2963257007",
-      "Name": "player_gun_stow",
-      "ObjectPath": "\\Events\\Sound\\player\\player_gun_stow",
-      "GUID": "{1D355B35-0F82-4A13-81C2-1E7DF6E21FE7}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.4641646",
-      "DurationMax": "0.5757456",
-      "MediaRefs": [
-       {
-        "Id": "422511376"
-       },
-       {
-        "Id": "903123993"
-       }
-      ]
-     },
-     {
-      "Id": "2994582105",
-      "Name": "player_knife_equip",
-      "ObjectPath": "\\Events\\Sound\\player\\player_knife_equip",
-      "GUID": "{D0E470A2-7AEE-45E2-AB8B-4D65239DA3F9}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.3584534",
-      "DurationMax": "0.4023503",
-      "MediaRefs": [
-       {
-        "Id": "119096001"
-       }
-      ]
-     },
-     {
-      "Id": "3299203624",
-      "Name": "player_knife_stow",
-      "ObjectPath": "\\Events\\Sound\\player\\player_knife_stow",
-      "GUID": "{76BE6E0E-B0F7-4DD4-B09A-2B7258707155}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1408038267",
-      "Name": "player_knife_swing",
-      "ObjectPath": "\\Events\\Sound\\player\\player_knife_swing",
-      "GUID": "{C28080D3-44A2-45E3-9030-246DA5AA5AE5}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.14254469",
-      "DurationMax": "0.19039436",
-      "MediaRefs": [
-       {
-        "Id": "186334197"
-       },
-       {
-        "Id": "461370265"
-       },
-       {
-        "Id": "524831652"
-       },
-       {
-        "Id": "597391421"
-       },
-       {
-        "Id": "761429720"
-       },
-       {
-        "Id": "864530334"
-       }
-      ]
-     },
-     {
       "Id": "3461836331",
       "Name": "player_step",
       "ObjectPath": "\\Events\\Sound\\player\\player_step",
       "GUID": "{F27B6D17-DE6C-4A79-B749-03C751AB2719}",
       "DurationType": "OneShot",
-      "DurationMin": "0.030570088",
+      "DurationMin": "0",
       "DurationMax": "0.32140797",
       "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1174571161",
-         "Id": "3091570009",
-         "GUID": "{D1047960-71DA-4BDD-A6B1-0913A426E61E}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "67559558"
-         },
-         {
-          "Id": "732340735"
-         },
-         {
-          "Id": "906602177"
-         }
-        ]
-       },
        {
         "SwitchValue": {
          "GroupType": "Switch",
@@ -654,16 +1322,19 @@
         },
         "MediaRefs": [
          {
-          "Id": "65555140"
+          "Id": "94365818"
          },
          {
-          "Id": "552050108"
+          "Id": "145996034"
          },
          {
-          "Id": "592210594"
+          "Id": "201069251"
          },
          {
-          "Id": "1004606971"
+          "Id": "380878661"
+         },
+         {
+          "Id": "482751254"
          }
         ]
        },
@@ -721,9 +1392,249 @@
       ]
      },
      {
+      "Id": "3717368857",
+      "Name": "rat_alert",
+      "ObjectPath": "\\Events\\Sound\\enemies\\rat\\rat_alert",
+      "GUID": "{47303E1A-1272-47BA-B1AC-60CBE6BABAAF}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1268870121",
+      "Name": "rat_death",
+      "ObjectPath": "\\Events\\Sound\\enemies\\rat\\rat_death",
+      "GUID": "{51519314-B45A-40AE-9466-B59255C0D883}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4145688586",
+      "Name": "rat_hurt",
+      "ObjectPath": "\\Events\\Sound\\enemies\\rat\\rat_hurt",
+      "GUID": "{9F106397-2334-49FB-BA39-C9602BFD8CBB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "378138552",
+      "Name": "rat_passive",
+      "ObjectPath": "\\Events\\Sound\\enemies\\rat\\rat_passive",
+      "GUID": "{3D3F4882-5303-4E93-B1B1-A55ED8102429}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1572639255",
+      "Name": "rifle_drop",
+      "ObjectPath": "\\Events\\Sound\\weapons\\rifle\\rifle_drop",
+      "GUID": "{1DC34CAC-3D3C-4337-A1F0-633D4174B9CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.67681646",
+      "DurationMax": "0.71706206",
+      "MediaRefs": [
+       {
+        "Id": "422511376"
+       }
+      ]
+     },
+     {
+      "Id": "583449690",
+      "Name": "rifle_dry_fire",
+      "ObjectPath": "\\Events\\Sound\\weapons\\rifle\\rifle_dry_fire",
+      "GUID": "{12559C07-E4EB-4697-9366-7682FDBA2152}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16638114",
+      "DurationMax": "0.17125647",
+      "MediaRefs": [
+       {
+        "Id": "369262581"
+       }
+      ]
+     },
+     {
+      "Id": "1073613021",
+      "Name": "rifle_pick_up",
+      "ObjectPath": "\\Events\\Sound\\weapons\\rifle\\rifle_pick_up",
+      "GUID": "{2A1D801B-C845-4C80-9352-722822059D97}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.46204808",
+      "DurationMax": "0.4895229",
+      "MediaRefs": [
+       {
+        "Id": "331452829"
+       }
+      ]
+     },
+     {
+      "Id": "1117295805",
+      "Name": "rifle_shoot",
+      "ObjectPath": "\\Events\\Sound\\weapons\\rifle\\rifle_shoot",
+      "GUID": "{5AC61A2D-EAB1-4F21-9E92-69F69C3C23CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28682822",
+      "DurationMax": "0.2952329",
+      "MediaRefs": [
+       {
+        "Id": "549586425"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "537409510"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "795876976",
+      "Name": "saber_drop",
+      "ObjectPath": "\\Events\\Sound\\weapons\\saber\\saber_drop",
+      "GUID": "{11D88899-516C-440A-A264-A0686919D5EA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.34211957",
+      "DurationMax": "0.36246306",
+      "MediaRefs": [
+       {
+        "Id": "835036213"
+       }
+      ]
+     },
+     {
+      "Id": "2221259764",
+      "Name": "saber_pick_up",
+      "ObjectPath": "\\Events\\Sound\\weapons\\saber\\saber_pick_up",
+      "GUID": "{03D861BB-D481-4DF3-A3D0-2889BB865DF8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.92532426",
+      "DurationMax": "0.94695276",
+      "MediaRefs": [
+       {
+        "Id": "131495885"
+       }
+      ]
+     },
+     {
+      "Id": "1754695199",
+      "Name": "saber_swing",
+      "ObjectPath": "\\Events\\Sound\\weapons\\saber\\saber_swing",
+      "GUID": "{82343103-0F77-499E-BF2B-E3132E09C504}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20158863",
+      "DurationMax": "0.26925826",
+      "MediaRefs": [
+       {
+        "Id": "186334197"
+       },
+       {
+        "Id": "461370265"
+       },
+       {
+        "Id": "524831652"
+       },
+       {
+        "Id": "597391421"
+       },
+       {
+        "Id": "761429720"
+       },
+       {
+        "Id": "864530334"
+       }
+      ]
+     },
+     {
+      "Id": "359895338",
+      "Name": "statue_alert",
+      "ObjectPath": "\\Events\\Sound\\enemies\\statue\\statue_alert",
+      "GUID": "{8ED27AC8-A066-49C6-8BFE-2A34BC657C14}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1996426614",
+      "Name": "statue_death",
+      "ObjectPath": "\\Events\\Sound\\enemies\\statue\\statue_death",
+      "GUID": "{95F6902E-FC61-476F-9E6E-39F863394EF8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3153394827",
+      "Name": "statue_hurt",
+      "ObjectPath": "\\Events\\Sound\\enemies\\statue\\statue_hurt",
+      "GUID": "{1CFFEB93-2E2F-4A53-98F2-DDC8F978A75F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1562447415",
+      "Name": "statue_passive",
+      "ObjectPath": "\\Events\\Sound\\enemies\\statue\\statue_passive",
+      "GUID": "{4DF19DA6-BA1D-4041-A1FC-21DCB77A0ABE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "39551106",
+      "Name": "wolf_alert",
+      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\wolf_alert",
+      "GUID": "{74020211-A1E6-4D63-8E86-8304732B41BA}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "409434414",
+      "Name": "wolf_death",
+      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\wolf_death",
+      "GUID": "{2B13288C-5D69-42F3-AAE7-1C2E32059F29}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2471571571",
+      "Name": "wolf_hurt",
+      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\wolf_hurt",
+      "GUID": "{2D74793F-EC86-4503-977E-551E191376C4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "837299471",
+      "Name": "wolf_passive",
+      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\wolf_passive",
+      "GUID": "{19D7AD7B-A4A6-42E9-B0AD-25D6B4931A18}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2058049672",
       "Name": "woof",
-      "ObjectPath": "\\Events\\Sound\\enemy\\woof",
+      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\woof",
       "GUID": "{9303B702-A636-4E52-85D1-ECCA7CA9D264}",
       "DurationType": "OneShot",
       "DurationMin": "0.32964584",
@@ -733,6 +1644,46 @@
         "Id": "369113679"
        }
       ]
+     },
+     {
+      "Id": "1451961116",
+      "Name": "worker_alert",
+      "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_alert",
+      "GUID": "{7A6D113E-6E76-4F3A-A140-5EDD01F0C58D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2206398204",
+      "Name": "worker_death",
+      "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_death",
+      "GUID": "{FBA7A798-2A60-48BC-AE63-B90EE41E3E18}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1722103065",
+      "Name": "worker_hurt",
+      "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_hurt",
+      "GUID": "{AD85FE1B-73A8-42BF-9062-E689B64C03F9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3965856865",
+      "Name": "worker_passive",
+      "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_passive",
+      "GUID": "{2BB27CE1-79F6-47E9-B8A4-3E6D752A1A76}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -779,6 +1730,6 @@
     ]
    }
   ],
-  "FileHash": "{F9B0C647-AD02-FDB0-A07E-C621F0C321F1}"
+  "FileHash": "{F541C480-83C2-2AE5-EEB8-10821788784F}"
  }
 }
