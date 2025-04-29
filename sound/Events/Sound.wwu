@@ -324,10 +324,50 @@
 						</Folder>
 						<Folder Name="rat" ID="{FB870953-2A66-4B5D-8F01-C7EB7BE3DD85}" ShortID="89589913">
 							<ChildrenList>
-								<Event Name="rat_passive" ID="{3D3F4882-5303-4E93-B1B1-A55ED8102429}"/>
-								<Event Name="rat_alert" ID="{47303E1A-1272-47BA-B1AC-60CBE6BABAAF}"/>
-								<Event Name="rat_hurt" ID="{9F106397-2334-49FB-BA39-C9602BFD8CBB}"/>
-								<Event Name="rat_death" ID="{51519314-B45A-40AE-9466-B59255C0D883}"/>
+								<Event Name="rat_passive" ID="{3D3F4882-5303-4E93-B1B1-A55ED8102429}">
+									<ChildrenList>
+										<Action Name="" ID="{563EA493-374E-4AD9-A745-8A1AE33B7149}" ShortID="1049244495">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="passive" ID="{20472F7C-BFE6-401A-9545-6142E983BAA0}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="rat_alert" ID="{47303E1A-1272-47BA-B1AC-60CBE6BABAAF}">
+									<ChildrenList>
+										<Action Name="" ID="{89E9A1AA-6A8F-49D9-A8D0-C88873ED2FA1}" ShortID="241294380">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="alert" ID="{8294EAD4-7CBD-4E57-8A0A-CCE6A4D12B61}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="rat_hurt" ID="{9F106397-2334-49FB-BA39-C9602BFD8CBB}">
+									<ChildrenList>
+										<Action Name="" ID="{521EF475-FD1B-4C80-A0BE-58B2089531A6}" ShortID="107190193">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{E3C0A872-A2FE-4DA8-A3E3-0FBA8E31CCCD}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="rat_death" ID="{51519314-B45A-40AE-9466-B59255C0D883}">
+									<ChildrenList>
+										<Action Name="" ID="{883798B8-1698-4826-95E0-44F9930F9DAD}" ShortID="491929142">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{8916D287-397F-4844-A9CA-4DCB17469275}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="wolf" ID="{D1BACC84-C020-49CD-B211-BE02CA18544E}" ShortID="817639319">
@@ -343,10 +383,50 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="wolf_passive" ID="{19D7AD7B-A4A6-42E9-B0AD-25D6B4931A18}"/>
-								<Event Name="wolf_alert" ID="{74020211-A1E6-4D63-8E86-8304732B41BA}"/>
-								<Event Name="wolf_hurt" ID="{2D74793F-EC86-4503-977E-551E191376C4}"/>
-								<Event Name="wolf_death" ID="{2B13288C-5D69-42F3-AAE7-1C2E32059F29}"/>
+								<Event Name="wolf_passive" ID="{19D7AD7B-A4A6-42E9-B0AD-25D6B4931A18}">
+									<ChildrenList>
+										<Action Name="" ID="{8C1AAE64-A738-4BE7-82E2-27A977C91A00}" ShortID="370840460">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="passive" ID="{26EC6673-C98E-4084-B9FD-3A2445DB91E3}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="wolf_alert" ID="{74020211-A1E6-4D63-8E86-8304732B41BA}">
+									<ChildrenList>
+										<Action Name="" ID="{553972B5-1582-48E9-806D-3205544BC772}" ShortID="563920488">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="alert" ID="{4F5F4220-801B-4B70-8EC1-FA3E3F539245}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="wolf_hurt" ID="{2D74793F-EC86-4503-977E-551E191376C4}">
+									<ChildrenList>
+										<Action Name="" ID="{319A18A0-5EFE-4AE3-A144-E5B612762E93}" ShortID="457924618">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{76D35F2B-7B49-4CD1-B38A-3C5C825FDB85}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="wolf_death" ID="{2B13288C-5D69-42F3-AAE7-1C2E32059F29}">
+									<ChildrenList>
+										<Action Name="" ID="{E991830E-CEA6-43DF-9813-AA100FBAA8E4}" ShortID="432268372">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{6BB895A5-7DB3-4A1B-A715-39851B59B922}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="worker" ID="{91192E90-4942-4CB4-BD6C-C934C95192A2}" ShortID="649383950">
@@ -359,10 +439,60 @@
 						</Folder>
 						<Folder Name="statue" ID="{0F329A01-86A9-4B21-924C-D6661B046062}" ShortID="305055431">
 							<ChildrenList>
-								<Event Name="statue_passive" ID="{4DF19DA6-BA1D-4041-A1FC-21DCB77A0ABE}"/>
-								<Event Name="statue_alert" ID="{8ED27AC8-A066-49C6-8BFE-2A34BC657C14}"/>
-								<Event Name="statue_hurt" ID="{1CFFEB93-2E2F-4A53-98F2-DDC8F978A75F}"/>
-								<Event Name="statue_death" ID="{95F6902E-FC61-476F-9E6E-39F863394EF8}"/>
+								<Event Name="statue_passive" ID="{4DF19DA6-BA1D-4041-A1FC-21DCB77A0ABE}">
+									<ChildrenList>
+										<Action Name="" ID="{2B31577A-486D-4369-889C-6D0443B4EED6}" ShortID="796002149">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="statue_alert" ID="{8ED27AC8-A066-49C6-8BFE-2A34BC657C14}">
+									<ChildrenList>
+										<Action Name="" ID="{3B90CA3F-1687-4D18-B8F6-E07FB379C0E3}" ShortID="884599793">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="alert" ID="{662D9BBE-7A21-4901-9F4C-1B713A29A038}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="statue_hurt" ID="{1CFFEB93-2E2F-4A53-98F2-DDC8F978A75F}">
+									<ChildrenList>
+										<Action Name="" ID="{022CB298-7A01-4D12-AA09-BF6026FB0805}" ShortID="990902034">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{8FFB2654-EDA2-4FE5-A2C8-3A9EEF80FD56}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{445D3B8B-197F-42C2-AEF7-91014B3F9A58}" ShortID="403149102">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="crumble" ID="{DCB6D7CB-BF5E-4207-A40E-3A6E08D0B017}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="statue_death" ID="{95F6902E-FC61-476F-9E6E-39F863394EF8}">
+									<ChildrenList>
+										<Action Name="" ID="{8361D8F1-C3CE-41E9-B52F-B8C28FA9A1A2}" ShortID="506147056">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{71AC7E7A-0798-49BC-8111-C93CE600F0E5}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -622,7 +752,20 @@
 						</Folder>
 						<Folder Name="big_statue" ID="{2EE0B3E7-0B38-4867-9D2E-FCC33369AA1F}" ShortID="291659621">
 							<ChildrenList>
-								<Event Name="big_statue_passive" ID="{93F0F0C4-79D6-4546-9658-921B2AA6F49F}"/>
+								<Event Name="big_statue_passive" ID="{93F0F0C4-79D6-4546-9658-921B2AA6F49F}">
+									<ChildrenList>
+										<Action Name="" ID="{EA5DED5A-977B-4D6D-BDD0-F6120F53D2FD}" ShortID="1064850358">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="big_statue_alert" ID="{81955D5E-EEA3-4731-980C-5908F3A501EC}"/>
 								<Event Name="big_statue_hurt" ID="{1EBDF418-82B7-438A-848E-A471AFEA470D}"/>
 								<Event Name="big_statue_death" ID="{B2CEE166-4551-4A64-8D75-161412F47DC8}"/>
@@ -672,6 +815,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="type" ID="{FBB555BD-7062-448C-9D32-2B335EE01631}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="loading_start" ID="{CFC2A2CF-757D-4518-9C75-6A64165F980A}">
+							<ChildrenList>
+								<Action Name="" ID="{30983A54-84BC-405C-8521-53DB7B25E220}" ShortID="482515650">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="loading_end" ID="{763378EB-84AC-4198-99A1-EEE46611FDBE}">
+							<ChildrenList>
+								<Action Name="" ID="{D13468C9-73FE-48DF-8F4D-D4DD0C13E51D}" ShortID="513626860">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

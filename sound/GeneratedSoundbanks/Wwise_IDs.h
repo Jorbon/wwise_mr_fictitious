@@ -44,6 +44,8 @@ namespace AK
         static const AkUniqueID KNIFE_DROP = 3291325616U;
         static const AkUniqueID KNIFE_PICK_UP = 4126897460U;
         static const AkUniqueID KNIFE_SWING = 3430418271U;
+        static const AkUniqueID LOADING_END = 1254551773U;
+        static const AkUniqueID LOADING_START = 3539497238U;
         static const AkUniqueID MENDOZA_ALERT = 3353988744U;
         static const AkUniqueID MENDOZA_DEATH = 1759798504U;
         static const AkUniqueID MENDOZA_HURT = 3131033877U;
