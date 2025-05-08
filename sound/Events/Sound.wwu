@@ -433,10 +433,53 @@
 						</Folder>
 						<Folder Name="worker" ID="{91192E90-4942-4CB4-BD6C-C934C95192A2}" ShortID="649383950">
 							<ChildrenList>
-								<Event Name="worker_passive" ID="{2BB27CE1-79F6-47E9-B8A4-3E6D752A1A76}"/>
-								<Event Name="worker_alert" ID="{7A6D113E-6E76-4F3A-A140-5EDD01F0C58D}"/>
-								<Event Name="worker_hurt" ID="{AD85FE1B-73A8-42BF-9062-E689B64C03F9}"/>
-								<Event Name="worker_death" ID="{FBA7A798-2A60-48BC-AE63-B90EE41E3E18}"/>
+								<Event Name="worker_passive" ID="{2BB27CE1-79F6-47E9-B8A4-3E6D752A1A76}">
+									<ChildrenList>
+										<Action Name="" ID="{CCABA6F7-7C49-45DE-9DAB-A3752D82EBB8}" ShortID="586226251">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="passive" ID="{11482E33-9C59-423E-9D86-0DB8926BEDBC}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="worker_alert" ID="{7A6D113E-6E76-4F3A-A140-5EDD01F0C58D}">
+									<ChildrenList>
+										<Action Name="" ID="{6D4CD2BB-50ED-49C1-9BF3-B2C0175CF553}" ShortID="964393064">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="worker_hurt" ID="{AD85FE1B-73A8-42BF-9062-E689B64C03F9}">
+									<ChildrenList>
+										<Action Name="" ID="{3D43DBD1-A775-48F4-908F-29FF3EA2269B}" ShortID="344289256">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{6271CC10-701B-4749-99E9-D1FC02160A97}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="worker_death" ID="{FBA7A798-2A60-48BC-AE63-B90EE41E3E18}">
+									<ChildrenList>
+										<Action Name="" ID="{9E3F50BF-3DDA-4429-8B5F-2C5D8CF948FE}" ShortID="782480435">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{FBB258DF-7E54-4246-9FE7-4FBC39891B71}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="statue" ID="{0F329A01-86A9-4B21-924C-D6661B046062}" ShortID="305055431">
@@ -814,12 +857,93 @@
 					<ChildrenList>
 						<Folder Name="horseman" ID="{4FCD3E94-8E0C-41C7-A877-D8C0D3119D51}" ShortID="230500904">
 							<ChildrenList>
-								<Event Name="horseman_passive" ID="{3AC94FC5-3D60-4D3A-A6EC-4E00D846CECB}"/>
-								<Event Name="horseman_alert" ID="{0E856E30-790A-445F-A168-F0241F031392}"/>
-								<Event Name="horseman_hurt" ID="{E14DDA7E-3897-4D6A-9321-CB7EFEAFF993}"/>
-								<Event Name="horseman_death" ID="{34119CFD-7165-4C60-BFAE-0CE695E59592}"/>
-								<Event Name="horseman_shoot" ID="{49253B24-2E32-4E21-A908-342EA03A4087}"/>
-								<Event Name="horseman_unalert" ID="{7AA532F0-528A-40D4-BDF8-FEFF3A0DD564}"/>
+								<Event Name="horseman_passive" ID="{3AC94FC5-3D60-4D3A-A6EC-4E00D846CECB}">
+									<ChildrenList>
+										<Action Name="" ID="{11697692-D969-4977-B25D-764113B6C659}" ShortID="8394649">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="passive" ID="{0FAF48EA-97E4-42E6-8D55-DB9D91043A73}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="horseman_alert" ID="{0E856E30-790A-445F-A168-F0241F031392}">
+									<ChildrenList>
+										<Action Name="" ID="{7174756C-52D8-4837-8251-0386261C8E9C}" ShortID="138632731">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="alert" ID="{4A4986FC-E0C7-462C-9FFF-DF00430136BF}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7EF6FDC7-0FF8-41F9-8333-B22F500C317C}" ShortID="241148807">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="alert" ID="{B62FFE48-82C2-4943-B7C8-97D40153921A}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="horseman_hurt" ID="{E14DDA7E-3897-4D6A-9321-CB7EFEAFF993}">
+									<ChildrenList>
+										<Action Name="" ID="{77105BE3-75B5-4249-9F87-07243A18AA23}" ShortID="162135481">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{3DA77608-4342-4E4E-979C-EF36649B31B5}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{38138BB3-00F6-4AF1-9AA8-2D7669367D21}" ShortID="484920293">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{BDA617BF-7E5B-4603-B464-024AFC95EC6F}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="horseman_death" ID="{34119CFD-7165-4C60-BFAE-0CE695E59592}">
+									<ChildrenList>
+										<Action Name="" ID="{8BCACA75-DA77-4B18-994D-16F49816A093}" ShortID="124622641">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{CE93AE05-755F-4085-B20C-EFC4A47DCB52}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EF2B9181-12DD-4949-A659-1785AB143B91}" ShortID="1058196631">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{78B31ACD-F3A2-41B3-95F7-BC635A320831}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="horseman_shoot" ID="{49253B24-2E32-4E21-A908-342EA03A4087}">
+									<ChildrenList>
+										<Action Name="" ID="{6F5FC43F-7834-484D-8CC5-504D52AC3511}" ShortID="724781087">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shoot" ID="{AB33AB54-EEAE-4050-B3E0-DE7C1CC08D60}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="horseman_unalert" ID="{7AA532F0-528A-40D4-BDF8-FEFF3A0DD564}">
+									<ChildrenList>
+										<Action Name="" ID="{48EEB540-29F1-40C0-83CA-EDD878092334}" ShortID="1063044596">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="unalert" ID="{F2B57CAC-7999-42E6-A309-695F667D7F57}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="horseman_shadow" ID="{1E32D2C7-BCE4-49E5-9C00-7E4A04D318CB}">
 									<ChildrenList>
 										<Action Name="" ID="{630681D7-20DE-40DE-AF41-7EABEC3953CC}" ShortID="343407099">
@@ -932,11 +1056,64 @@
 						</Folder>
 						<Folder Name="mendoza" ID="{21F43803-90A6-473C-AFEC-2385ACD366EB}" ShortID="68407886">
 							<ChildrenList>
-								<Event Name="mendoza_passive" ID="{0C48994D-9408-43A0-AAEA-7ED01B56B187}"/>
-								<Event Name="mendoza_alert" ID="{F21C5246-D106-491B-8F77-F3B19F73AD34}"/>
-								<Event Name="mendoza_hurt" ID="{E65898B7-E777-40E9-BA45-18D9CF24BFDE}"/>
-								<Event Name="mendoza_death" ID="{270BDD58-17A7-4004-ACC5-B4B3E9BE531A}"/>
-								<Event Name="mendoza_throw_syringe" ID="{4B88AD9B-BAAB-45E9-BC2A-8F36E368434B}"/>
+								<Event Name="mendoza_passive" ID="{0C48994D-9408-43A0-AAEA-7ED01B56B187}">
+									<ChildrenList>
+										<Action Name="" ID="{3D2ADBCD-2C9B-46D6-9691-D14514A12B0A}" ShortID="568771729">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="passive" ID="{B71E115D-8F74-442C-AC76-595B21B505C7}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="mendoza_alert" ID="{F21C5246-D106-491B-8F77-F3B19F73AD34}">
+									<ChildrenList>
+										<Action Name="" ID="{9CCDE3B8-E54A-45E0-A3AC-1CA36595FF71}" ShortID="450069962">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="mendoza_hurt" ID="{E65898B7-E777-40E9-BA45-18D9CF24BFDE}">
+									<ChildrenList>
+										<Action Name="" ID="{065F5C3A-6727-4355-9390-9F12B4426D08}" ShortID="1040330751">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{75936661-AB07-4007-AD58-234E2D057A45}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="mendoza_death" ID="{270BDD58-17A7-4004-ACC5-B4B3E9BE531A}">
+									<ChildrenList>
+										<Action Name="" ID="{C5B092CE-AD12-46F9-866E-7FB411C7795C}" ShortID="704469856">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{ABC4B368-CA87-4E5D-937A-24B6857C5993}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="mendoza_throw_syringe" ID="{4B88AD9B-BAAB-45E9-BC2A-8F36E368434B}">
+									<ChildrenList>
+										<Action Name="" ID="{522748F6-9102-4032-9446-64B26ADD265D}" ShortID="760009448">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="throw_syringe" ID="{3492C8DD-B2E6-46F5-B638-8D6675DB9CE5}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

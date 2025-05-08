@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4E368268-CB63-4A12-A4E9-39BF9B244209}",
     "Language": "SFX",
-    "Hash": "{1A1B30C4-6104-AFFC-1CE9-E71144CA479F}",
+    "Hash": "{E96657B9-011A-E533-D858-E61C61C6F8C0}",
     "ObjectPath": "\\SoundBanks\\Sound\\sound",
     "ShortName": "sound",
     "Path": "623086306.bnk",
@@ -32,12 +32,28 @@
       "CachePath": "E3/{E383B1F3-60F2-F03D-1125-875DEDF98602}.wem"
      },
      {
+      "Id": "20922051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "worker_hurt_1.wav",
+      "CachePath": "C9/{C901ABC5-3ADE-FA3A-5FEE-54E16A1C9389}.wem"
+     },
+     {
       "Id": "24468781",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "step_crunch_4.wav",
       "CachePath": "99/{9924DA26-C8F9-9E75-DAF5-42216AD84CBA}.wem"
+     },
+     {
+      "Id": "36362288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_hurt_1.wav",
+      "CachePath": "F7/{F7056A16-9FC2-6D99-8D98-6FE2969C2295}.wem"
      },
      {
       "Id": "48041668",
@@ -54,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "step_crunch_3.wav",
       "CachePath": "94/{943E4CB3-2AD5-533D-022B-595E88662820}.wem"
+     },
+     {
+      "Id": "57407421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_sound_3.wav",
+      "CachePath": "C9/{C90E0E26-421A-F91E-2AB8-4F6F88460CA0}.wem"
      },
      {
       "Id": "80304111",
@@ -104,6 +128,22 @@
       "CachePath": "F3/{F3739B14-B437-3173-C6E5-263F6EA4BD9D}.wem"
      },
      {
+      "Id": "114406619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_sound_2.wav",
+      "CachePath": "AB/{AB95BE58-80F5-A689-D89A-4A748EAB037B}.wem"
+     },
+     {
+      "Id": "125865987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "cocaine_use.wav",
+      "CachePath": "17/{17BD4B52-FC0D-56AB-C4C6-496DCF5C7FF0}.wem"
+     },
+     {
       "Id": "131495885",
       "Language": "SFX",
       "Streaming": "false",
@@ -144,6 +184,14 @@
       "CachePath": "D4/{D4537981-A184-8711-F93E-F3019CA78AEE}.wem"
      },
      {
+      "Id": "160483507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_sound_4.wav",
+      "CachePath": "EC/{ECACA1BE-3C8C-56AE-E8C5-40ED573B165C}.wem"
+     },
+     {
       "Id": "161958754",
       "Language": "SFX",
       "Streaming": "false",
@@ -152,12 +200,44 @@
       "CachePath": "4C/{4C21E771-30CA-C84A-520E-BDE57DE6090A}.wem"
      },
      {
+      "Id": "162779226",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "worker_hurt_2.wav",
+      "CachePath": "F3/{F3DFA5DA-8D68-9A96-C1A5-8D4806229FA4}.wem"
+     },
+     {
+      "Id": "166275366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ahhhh.wav",
+      "CachePath": "05/{05DB2228-692A-7A95-BC84-84DED33DF8D3}.wem"
+     },
+     {
+      "Id": "178987780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_hurt_4.wav",
+      "CachePath": "87/{87DEBA96-9653-4A91-E0B5-27914A45DA03}.wem"
+     },
+     {
       "Id": "179153603",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_death.wav",
       "CachePath": "51/{5142F311-2918-B982-7E87-A9A9DA2EB8C8}.wem"
+     },
+     {
+      "Id": "182742006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_hurt_2.wav",
+      "CachePath": "53/{53F2F31D-7FB7-765F-BD64-767853F0AEB8}.wem"
      },
      {
       "Id": "186334197",
@@ -182,6 +262,22 @@
       "Location": "Memory",
       "ShortName": "village_step_1.wav",
       "CachePath": "CF/{CF779F8E-59FB-F764-2A38-E2A725BB1A70}.wem"
+     },
+     {
+      "Id": "196599485",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "item_pick_up.wav",
+      "CachePath": "F3/{F3C23B1B-C6EC-6DE1-5280-28B3AFF540E6}.wem"
+     },
+     {
+      "Id": "198512206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "big_statue_ground_pound.wav",
+      "CachePath": "A6/{A6CC27F5-CACA-623D-E80E-335C0E28B5E3}.wem"
      },
      {
       "Id": "201069251",
@@ -224,6 +320,30 @@
       "CachePath": "3C/{3CE65CFE-C6AC-A7FB-213A-CCB371E3C691}.wem"
      },
      {
+      "Id": "238793428",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mendoza_hurt_2.wav",
+      "CachePath": "62/{623A3D80-9692-F1EF-6FE8-F86C6133482B}.wem"
+     },
+     {
+      "Id": "243852551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "statue_bonk.wav",
+      "CachePath": "1B/{1B39D5FB-BBE6-487A-E27E-CE35CCE9D79E}.wem"
+     },
+     {
+      "Id": "257012669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_alert.wav",
+      "CachePath": "FA/{FA5B393C-F921-93E6-EF22-D83FE980641A}.wem"
+     },
+     {
       "Id": "257366373",
       "Language": "SFX",
       "Streaming": "false",
@@ -248,6 +368,14 @@
       "CachePath": "C4/{C4FB9788-A61C-38F5-87A3-D76C97ABA775}.wem"
      },
      {
+      "Id": "271386901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_unalert.wav",
+      "CachePath": "8C/{8CE4AEF4-0619-37F6-8C53-20EE076A9B5E}.wem"
+     },
+     {
       "Id": "331452829",
       "Language": "SFX",
       "Streaming": "false",
@@ -256,12 +384,28 @@
       "CachePath": "2A/{2ADB92CA-F673-2E4E-EF17-FE060B7680ED}.wem"
      },
      {
+      "Id": "339557053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mendoza_hurt_4.wav",
+      "CachePath": "08/{080F7D0C-1E7F-7B14-D768-256CD44B066D}.wem"
+     },
+     {
       "Id": "354144362",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_passive_3.wav",
       "CachePath": "71/{71D085B5-EDA2-3580-E2EB-FBB59E76DE15}.wem"
+     },
+     {
+      "Id": "366237323",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "big_statue_dash.wav",
+      "CachePath": "4A/{4A40B232-EF4C-CD0B-E275-0FD3FC53AA6D}.wem"
      },
      {
       "Id": "368868233",
@@ -280,6 +424,14 @@
       "CachePath": "EB/{EBF633B6-149E-C995-B509-D2C6B8850510}.wem"
      },
      {
+      "Id": "371697101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "knife_pick_up.wav",
+      "CachePath": "1B/{1BD62202-469C-7591-D733-363C63976495}.wem"
+     },
+     {
       "Id": "380878661",
       "Language": "SFX",
       "Streaming": "false",
@@ -288,12 +440,28 @@
       "CachePath": "56/{562B10B7-90E3-CBBA-49AA-28BC5008607A}.wem"
      },
      {
+      "Id": "393526460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mendoza_hurt_5.wav",
+      "CachePath": "6B/{6BC163DF-8989-6A6D-A53B-AC82EFB4D868}.wem"
+     },
+     {
       "Id": "401368493",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_alert.wav",
       "CachePath": "62/{626CFD1F-9FC9-2AC7-139A-42BD36E01ACF}.wem"
+     },
+     {
+      "Id": "404379269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "syringe.wav",
+      "CachePath": "6F/{6F849FC0-257C-1BF7-49A9-30F5E0D49D88}.wem"
      },
      {
       "Id": "410026273",
@@ -342,6 +510,30 @@
       "Location": "Memory",
       "ShortName": "rat_hurt_2.wav",
       "CachePath": "29/{2921D926-28E5-8EDB-7461-35FEB296EC23}.wem"
+     },
+     {
+      "Id": "446902487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mendoza_hurt_1.wav",
+      "CachePath": "4F/{4FC34C08-11D5-8C6F-AE2A-856C7290DF83}.wem"
+     },
+     {
+      "Id": "451541677",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_sound_1.wav",
+      "CachePath": "79/{79E24C47-6F7D-98FF-210D-03CF83060C8A}.wem"
+     },
+     {
+      "Id": "460735718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "morphine_use.wav",
+      "CachePath": "F8/{F8A5CA71-1E86-704C-BF2D-6023F2BCD70D}.wem"
      },
      {
       "Id": "461370265",
@@ -405,7 +597,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_alert.wav",
-      "CachePath": "07/{079C31CE-CBA8-22F3-8313-29C09ECE7BEF}.wem"
+      "CachePath": "FD/{FD406ED4-C0A3-A23A-D8BD-A105D505727C}.wem"
      },
      {
       "Id": "549586425",
@@ -504,6 +696,14 @@
       "CachePath": "8C/{8CD212C4-26B3-D08D-ED8C-0367F0DBB6F7}.wem"
      },
      {
+      "Id": "755122757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_death.wav",
+      "CachePath": "1A/{1A15F7EA-38FE-34C0-8E03-2991363EA22D}.wem"
+     },
+     {
       "Id": "761429720",
       "Language": "SFX",
       "Streaming": "false",
@@ -518,6 +718,14 @@
       "Location": "Memory",
       "ShortName": "carriage_return.wav",
       "CachePath": "61/{61EB6234-9D64-5DBA-9203-18FC0204E2F7}.wem"
+     },
+     {
+      "Id": "768095219",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ahh.wav",
+      "CachePath": "32/{32D21CD2-26A2-3BE9-751C-C837CC11D645}.wem"
      },
      {
       "Id": "787805895",
@@ -542,6 +750,14 @@
       "Location": "Memory",
       "ShortName": "sword_drop.wav",
       "CachePath": "7A/{7A15DFBE-3822-5C75-0479-79E2533F5421}.wem"
+     },
+     {
+      "Id": "840682506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "worker_hurt_3.wav",
+      "CachePath": "89/{897D9A63-22A6-2FF1-CCCC-3CFAE2842899}.wem"
      },
      {
       "Id": "846356418",
@@ -656,6 +872,14 @@
       "CachePath": "0C/{0CDA82E1-F585-8DF5-4D45-7FC049451D9D}.wem"
      },
      {
+      "Id": "1020563659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "horse_hurt_3.wav",
+      "CachePath": "A3/{A37B5C06-4B79-F6D4-E7B3-6A0473AF62B9}.wem"
+     },
+     {
       "Id": "1023962256",
       "Language": "SFX",
       "Streaming": "false",
@@ -672,6 +896,14 @@
       "CachePath": "63/{63C1D1D1-0009-601F-D834-6C5D19B1ECEC}.wem"
      },
      {
+      "Id": "1032567811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "worker_hurt_4.wav",
+      "CachePath": "97/{975DB193-A1CB-72EF-2EB0-EB8BCDE5DEDA}.wem"
+     },
+     {
       "Id": "1036904178",
       "Language": "SFX",
       "Streaming": "false",
@@ -686,6 +918,14 @@
       "Location": "Memory",
       "ShortName": "statue_death.wav",
       "CachePath": "CE/{CEDBDF56-AF6D-943F-9E17-1A3567B1EE1F}.wem"
+     },
+     {
+      "Id": "1040769222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "mendoza_hurt_3.wav",
+      "CachePath": "97/{972ED536-6DE0-C6E0-1CD9-73AA893E3E41}.wem"
      },
      {
       "Id": "1042810372",
@@ -747,6 +987,14 @@
        "LibId": "8257539"
       },
       {
+       "Id": "534059376",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\bosses\\mendoza\\passive\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{C20332C0-2A25-4128-ADAC-D559B0D95BBA}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
        "Id": "537409510",
        "Name": "Guitar Distortion (Custom)",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\weapons\\rifle\\shoot\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
@@ -759,6 +1007,14 @@
        "Name": "Guitar Distortion (Custom)",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\player\\step\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
        "GUID": "{1D3E0CAD-1A32-43D2-B8D3-9D1B7680CEB8}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
+      },
+      {
+       "Id": "744617106",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Sound\\enemies\\worker\\passive\\[Effect Slot [0]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{FE888E34-DE4A-41C2-8CFC-9AE537E2FB86}",
        "LibName": "Wwise Guitar Distortion",
        "LibId": "8257539"
       },
@@ -812,50 +1068,79 @@
       "Name": "big_statue_dash",
       "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_dash",
       "GUID": "{987AFE1E-5A76-4E79-B218-3F057AB9FBA9}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.32055545",
+      "DurationMax": "0.35981137",
+      "MediaRefs": [
+       {
+        "Id": "366237323"
+       }
+      ]
      },
      {
       "Id": "2871720991",
       "Name": "big_statue_death",
       "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_death",
       "GUID": "{B2CEE166-4551-4A64-8D75-161412F47DC8}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.1240914",
+      "DurationMax": "1.1240914",
+      "MediaRefs": [
+       {
+        "Id": "1040642185"
+       }
+      ]
      },
      {
       "Id": "2151536549",
       "Name": "big_statue_ground_pound",
       "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_ground_pound",
       "GUID": "{77C73481-5CA4-485D-8029-7FE8354F79D2}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.0618782",
+      "DurationMax": "1.1919181",
+      "MediaRefs": [
+       {
+        "Id": "198512206"
+       }
+      ]
      },
      {
       "Id": "3117316584",
       "Name": "big_statue_hurt",
       "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_hurt",
       "GUID": "{1EBDF418-82B7-438A-848E-A471AFEA470D}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3743803",
+      "DurationMax": "0.46547592",
+      "MediaRefs": [
+       {
+        "Id": "4436882"
+       },
+       {
+        "Id": "267298281"
+       },
+       {
+        "Id": "534542083"
+       },
+       {
+        "Id": "1023962256"
+       }
+      ]
      },
      {
       "Id": "4015422482",
       "Name": "big_statue_not_hurt",
       "ObjectPath": "\\Events\\Sound\\bosses\\big_statue\\big_statue_not_hurt",
       "GUID": "{194EDB29-F574-4003-A21A-AD65ECC12224}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.08383728",
+      "DurationMax": "0.10562835",
+      "MediaRefs": [
+       {
+        "Id": "243852551"
+       }
+      ]
      },
      {
       "Id": "2382554986",
@@ -872,30 +1157,42 @@
       "Name": "cocaine_drop",
       "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_drop",
       "GUID": "{5FA2833A-1BCD-4D52-84BC-22CE729E537E}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3404535",
+      "DurationMax": "0.3404535",
+      "MediaRefs": [
+       {
+        "Id": "196599485"
+       }
+      ]
      },
      {
       "Id": "573247355",
       "Name": "cocaine_pick_up",
       "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_pick_up",
       "GUID": "{450608C3-C387-4122-9EAC-9A87E198FBCD}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3404535",
+      "DurationMax": "0.3404535",
+      "MediaRefs": [
+       {
+        "Id": "196599485"
+       }
+      ]
      },
      {
       "Id": "2577312975",
       "Name": "cocaine_use",
       "ObjectPath": "\\Events\\Sound\\items\\cocaine\\cocaine_use",
       "GUID": "{80A9A5F2-800D-4824-827C-0DD3D1CEF7BE}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.17562358",
+      "DurationMax": "0.17562358",
+      "MediaRefs": [
+       {
+        "Id": "125865987"
+       }
+      ]
      },
      {
       "Id": "1153302829",
@@ -917,11 +1214,11 @@
       "ObjectPath": "\\Events\\Sound\\weapons\\flashlight\\flashlight_pick_up",
       "GUID": "{7DB0843A-AC08-459E-8F57-E3C496D46A5D}",
       "DurationType": "OneShot",
-      "DurationMin": "0.15520833",
-      "DurationMax": "0.15520833",
+      "DurationMin": "0.105538525",
+      "DurationMax": "0.105538525",
       "MediaRefs": [
        {
-        "Id": "1054660686"
+        "Id": "270499484"
        }
       ]
      },
@@ -1111,40 +1408,109 @@
       "Name": "horseman_alert",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_alert",
       "GUID": "{0E856E30-790A-445F-A168-F0241F031392}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.002886",
+      "DurationMax": "1.1257017",
+      "MediaRefs": [
+       {
+        "Id": "257012669"
+       },
+       {
+        "Id": "719220187"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "811656921"
+        }
+       ]
+      }
      },
      {
       "Id": "1952085827",
       "Name": "horseman_death",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_death",
       "GUID": "{34119CFD-7165-4C60-BFAE-0CE695E59592}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.99575764",
+      "DurationMax": "1.4175822",
+      "MediaRefs": [
+       {
+        "Id": "80304111"
+       },
+       {
+        "Id": "420394761"
+       },
+       {
+        "Id": "755122757"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1026043103"
+        }
+       ]
+      }
      },
      {
       "Id": "3105223276",
       "Name": "horseman_hurt",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_hurt",
       "GUID": "{E14DDA7E-3897-4D6A-9321-CB7EFEAFF993}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.2101469",
+      "DurationMax": "0.38440603",
+      "MediaRefs": [
+       {
+        "Id": "36362288"
+       },
+       {
+        "Id": "178987780"
+       },
+       {
+        "Id": "182742006"
+       },
+       {
+        "Id": "424443976"
+       },
+       {
+        "Id": "567429153"
+       },
+       {
+        "Id": "796046324"
+       },
+       {
+        "Id": "1020563659"
+       },
+       {
+        "Id": "1045942528"
+       }
+      ]
      },
      {
       "Id": "474579462",
       "Name": "horseman_passive",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_passive",
       "GUID": "{3AC94FC5-3D60-4D3A-A6EC-4E00D846CECB}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.9989957",
+      "DurationMax": "5.3990955",
+      "MediaRefs": [
+       {
+        "Id": "751486990"
+       },
+       {
+        "Id": "894862109"
+       },
+       {
+        "Id": "926497452"
+       },
+       {
+        "Id": "1003642097"
+       }
+      ]
      },
      {
       "Id": "1408910503",
@@ -1161,20 +1527,37 @@
       "Name": "horseman_shoot",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_shoot",
       "GUID": "{49253B24-2E32-4E21-A908-342EA03A4087}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.35396653",
+      "DurationMax": "0.61424387",
+      "MediaRefs": [
+       {
+        "Id": "57407421"
+       },
+       {
+        "Id": "114406619"
+       },
+       {
+        "Id": "160483507"
+       },
+       {
+        "Id": "451541677"
+       }
+      ]
      },
      {
       "Id": "904885164",
       "Name": "horseman_unalert",
       "ObjectPath": "\\Events\\Sound\\bosses\\horseman\\horseman_unalert",
       "GUID": "{7AA532F0-528A-40D4-BDF8-FEFF3A0DD564}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.0640671",
+      "DurationMax": "1.3406407",
+      "MediaRefs": [
+       {
+        "Id": "271386901"
+       }
+      ]
      },
      {
       "Id": "3291325616",
@@ -1286,40 +1669,90 @@
       "Name": "mendoza_death",
       "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_death",
       "GUID": "{270BDD58-17A7-4004-ACC5-B4B3E9BE531A}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.9365771",
+      "DurationMax": "1.9365771",
+      "MediaRefs": [
+       {
+        "Id": "166275366"
+       }
+      ]
      },
      {
       "Id": "3131033877",
       "Name": "mendoza_hurt",
       "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_hurt",
       "GUID": "{E65898B7-E777-40E9-BA45-18D9CF24BFDE}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.40753046",
+      "DurationMax": "0.54867345",
+      "MediaRefs": [
+       {
+        "Id": "238793428"
+       },
+       {
+        "Id": "339557053"
+       },
+       {
+        "Id": "393526460"
+       },
+       {
+        "Id": "446902487"
+       },
+       {
+        "Id": "1040769222"
+       }
+      ]
      },
      {
       "Id": "3118712133",
       "Name": "mendoza_passive",
       "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_passive",
       "GUID": "{0C48994D-9408-43A0-AAEA-7ED01B56B187}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.18658227",
+      "DurationMax": "0.22188495",
+      "MediaRefs": [
+       {
+        "Id": "371697101"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "534059376"
+        }
+       ]
+      }
      },
      {
       "Id": "2381121692",
       "Name": "mendoza_throw_syringe",
       "ObjectPath": "\\Events\\Sound\\bosses\\mendoza\\mendoza_throw_syringe",
       "GUID": "{4B88AD9B-BAAB-45E9-BC2A-8F36E368434B}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.15262003",
+      "DurationMax": "0.22769469",
+      "MediaRefs": [
+       {
+        "Id": "186334197"
+       },
+       {
+        "Id": "461370265"
+       },
+       {
+        "Id": "524831652"
+       },
+       {
+        "Id": "597391421"
+       },
+       {
+        "Id": "761429720"
+       },
+       {
+        "Id": "864530334"
+       }
+      ]
      },
      {
       "Id": "760777789",
@@ -1384,30 +1817,42 @@
       "Name": "morphine_drop",
       "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_drop",
       "GUID": "{00BC029E-BAE8-4EAE-AA9A-8F4285718E31}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3404535",
+      "DurationMax": "0.3404535",
+      "MediaRefs": [
+       {
+        "Id": "196599485"
+       }
+      ]
      },
      {
       "Id": "391797197",
       "Name": "morphine_pick_up",
       "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_pick_up",
       "GUID": "{0E1B4D37-9418-4A09-8332-317AC1BC3F6C}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.3404535",
+      "DurationMax": "0.3404535",
+      "MediaRefs": [
+       {
+        "Id": "196599485"
+       }
+      ]
      },
      {
       "Id": "2909779513",
       "Name": "morphine_use",
       "ObjectPath": "\\Events\\Sound\\items\\morphine\\morphine_use",
       "GUID": "{53E1A23F-2F4F-495A-A8AC-FAA4D93C60A3}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.4208617",
+      "DurationMax": "0.4208617",
+      "MediaRefs": [
+       {
+        "Id": "460735718"
+       }
+      ]
      },
      {
       "Id": "477670102",
@@ -1871,8 +2316,8 @@
       "ObjectPath": "\\Events\\Sound\\weapons\\saber\\saber_swing",
       "GUID": "{82343103-0F77-499E-BF2B-E3132E09C504}",
       "DurationType": "OneShot",
-      "DurationMin": "0.11433584",
-      "DurationMax": "0.17057829",
+      "DurationMin": "0.22867168",
+      "DurationMax": "0.34115657",
       "MediaRefs": [
        {
         "Id": "186334197"
@@ -1959,6 +2404,20 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3146152684",
+      "Name": "syringe",
+      "ObjectPath": "\\Events\\Sound\\items\\syringe",
+      "GUID": "{1062C4AE-3BFD-4C67-B66C-BA951F3CB13A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25779647",
+      "DurationMax": "0.25779647",
+      "MediaRefs": [
+       {
+        "Id": "404379269"
+       }
+      ]
+     },
+     {
       "Id": "39551106",
       "Name": "wolf_alert",
       "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\wolf_alert",
@@ -2035,30 +2494,177 @@
       "Name": "worker_death",
       "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_death",
       "GUID": "{FBA7A798-2A60-48BC-AE63-B90EE41E3E18}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.6440679",
+      "DurationMax": "0.8114747",
+      "MediaRefs": [
+       {
+        "Id": "768095219"
+       }
+      ]
      },
      {
       "Id": "1722103065",
       "Name": "worker_hurt",
       "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_hurt",
       "GUID": "{AD85FE1B-73A8-42BF-9062-E689B64C03F9}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.35466856",
+      "DurationMax": "0.49440414",
+      "MediaRefs": [
+       {
+        "Id": "20922051"
+       },
+       {
+        "Id": "162779226"
+       },
+       {
+        "Id": "840682506"
+       },
+       {
+        "Id": "1032567811"
+       }
+      ]
      },
      {
       "Id": "3965856865",
       "Name": "worker_passive",
       "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_passive",
       "GUID": "{2BB27CE1-79F6-47E9-B8A4-3E6D752A1A76}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.061140176",
+      "DurationMax": "0.64281595",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1174571161",
+         "Id": "3091570009",
+         "GUID": "{D1047960-71DA-4BDD-A6B1-0913A426E61E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "143742905"
+         },
+         {
+          "Id": "151454242"
+         },
+         {
+          "Id": "193097032"
+         },
+         {
+          "Id": "754185896"
+         },
+         {
+          "Id": "1042810372"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "744617106"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1174571161",
+         "Id": "2986392044",
+         "GUID": "{79A1256B-1740-4A27-973C-E1BAE3898636}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "94365818"
+         },
+         {
+          "Id": "145996034"
+         },
+         {
+          "Id": "201069251"
+         },
+         {
+          "Id": "380878661"
+         },
+         {
+          "Id": "482751254"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "744617106"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1174571161",
+         "Id": "2761606855",
+         "GUID": "{E1E0B593-62F4-497E-A89F-1628DB58B167}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "161958754"
+         },
+         {
+          "Id": "215435431"
+         },
+         {
+          "Id": "851772844"
+         },
+         {
+          "Id": "1000585856"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "744617106"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1174571161",
+         "Id": "491961918",
+         "GUID": "{18160DBD-27FC-4693-B5EB-3F8624584899}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "24468781"
+         },
+         {
+          "Id": "48041668"
+         },
+         {
+          "Id": "56300568"
+         },
+         {
+          "Id": "613076162"
+         },
+         {
+          "Id": "787805895"
+         },
+         {
+          "Id": "994139354"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "744617106"
+          }
+         ]
+        }
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -2105,6 +2711,6 @@
     ]
    }
   ],
-  "FileHash": "{AA56CD6D-6AE9-A181-B70D-A4269EE00A97}"
+  "FileHash": "{8DBCDC03-7D58-11B4-014D-25A2F6D4E8AF}"
  }
 }

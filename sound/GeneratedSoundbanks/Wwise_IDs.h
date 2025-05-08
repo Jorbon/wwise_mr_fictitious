@@ -81,6 +81,7 @@ namespace AK
         static const AkUniqueID STATUE_DEATH = 1996426614U;
         static const AkUniqueID STATUE_HURT = 3153394827U;
         static const AkUniqueID STATUE_PASSIVE = 1562447415U;
+        static const AkUniqueID SYRINGE = 3146152684U;
         static const AkUniqueID WOLF_ALERT = 39551106U;
         static const AkUniqueID WOLF_DEATH = 409434414U;
         static const AkUniqueID WOLF_HURT = 2471571571U;
