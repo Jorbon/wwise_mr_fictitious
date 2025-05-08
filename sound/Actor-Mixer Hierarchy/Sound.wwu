@@ -310,7 +310,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -355,6 +355,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -485,7 +490,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -652,7 +657,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>10</Value>
+												<Value>8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1500,51 +1505,6 @@
 						</Folder>
 						<Folder Name="wolf" ID="{8A99611C-B668-4B95-81C2-EFD8646A22C8}" ShortID="482200175">
 							<ChildrenList>
-								<Sound Name="woof" ID="{5C7C1DFC-DAD7-45CD-9312-7514254EA007}" ShortID="687194869">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{E6BEA833-BE77-414B-8CA9-8DE2E8F7A93D}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="woof" ID="{1D48AE56-5D5A-401B-A51D-14AFED1303C4}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.178624137778871"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>woof.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="369113679"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="woof" ID="{1D48AE56-5D5A-401B-A51D-14AFED1303C4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="alert" ID="{4F5F4220-801B-4B70-8EC1-FA3E3F539245}" ShortID="1030318962">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -1591,8 +1551,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="wolf_alert" ID="{16B880A1-A81E-4705-BC45-B54FB1676BBC}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0625591653844586"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.124822238090195"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2712,6 +2671,108 @@
 										<ActiveSource Name="statue_crumble" ID="{42668276-8843-4B69-A7F5-59C46301DF05}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="bonk" ID="{374D3BC5-C78C-4D46-8D4F-1CBF1E94302E}" ShortID="304899528">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{47C5C309-0A25-48FA-8C9F-2E59B2E96C4B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FAA2D065-9CDA-4FFF-A96F-994A93A95535}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C1C7123-AB4F-4965-9C03-66234DB7700C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{85D06209-B146-4536-82D3-34C063811594}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="statue_bonk" ID="{B2EF8C1A-63F6-44BD-9E51-6A3100172295}">
+											<Language>SFX</Language>
+											<AudioFile>statue_bonk.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243852551"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="statue_bonk" ID="{B2EF8C1A-63F6-44BD-9E51-6A3100172295}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="impact" ID="{2A461EBB-49CB-4CF2-AB62-9D8831AB86BE}" ShortID="971406735">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="statue_impact" ID="{B2855916-B34E-439D-99E1-BBDB0FBB065C}">
+											<Language>SFX</Language>
+											<AudioFile>statue_impact.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470488359"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="statue_impact" ID="{B2855916-B34E-439D-99E1-BBDB0FBB065C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -3152,7 +3213,7 @@
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>-600</Value>
+												<Value>-1800</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -3542,7 +3603,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3908,6 +3969,11 @@
 												<Value>-2000</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4229,8 +4295,512 @@
 								<ActiveSource Name="paper" ID="{A554B99D-2ADC-44E4-92F5-5D8CE0F3D483}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Folder Name="morphine" ID="{C5411FC6-BF31-4AB0-A84A-3B8EE3689D6C}" ShortID="678938617"/>
-						<Folder Name="cocaine" ID="{F0FA0BFF-C2B6-4425-A3F1-9F433DE9FD60}" ShortID="219720689"/>
+						<Sound Name="syringe" ID="{62A25918-10EA-449F-AA37-D2A5938E304C}" ShortID="822828598">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="syringe" ID="{E58F473C-7EE8-498A-B24E-7C23EF23C116}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0303552532196045"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0267840469584746"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>syringe.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="404379269"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="syringe" ID="{E58F473C-7EE8-498A-B24E-7C23EF23C116}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pick_up" ID="{BE32D395-9D28-4999-8B9D-3778C509E57A}" ShortID="515812315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="item_pick_up" ID="{1CD7E652-9C7B-4FA8-9178-41690001A44A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0184245426514569"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.148731452997993"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>item_pick_up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196599485"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="item_pick_up" ID="{1CD7E652-9C7B-4FA8-9178-41690001A44A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="morphine_use" ID="{EF904538-461C-4F3C-9F38-6CE9C28A7014}" ShortID="6500699">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="morphine_use" ID="{02243655-6845-4758-B8B7-16818F8A9C41}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0660175201939601"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.104967857108397"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>morphine_use.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460735718"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="morphine_use" ID="{02243655-6845-4758-B8B7-16818F8A9C41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cocaine_use" ID="{58CF3419-EAF7-42BF-8975-047787246287}" ShortID="794486966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cocaine_use" ID="{ED1DDEFE-53A5-4BD8-9D5E-7C00D9DB2FA8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.001790671804372"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0162537902242997"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>cocaine_use.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="125865987"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cocaine_use" ID="{ED1DDEFE-53A5-4BD8-9D5E-7C00D9DB2FA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="bosses" ID="{D913762C-6639-4F76-8725-3E88E39CE25A}" ShortID="337240232">
+					<ChildrenList>
+						<Folder Name="big_statue" ID="{B98341D9-0F67-470E-80D6-4DB3D15F0809}" ShortID="932308246">
+							<ChildrenList>
+								<Sound Name="dash" ID="{A54FE28B-0118-4AB9-9EEC-EE934F882E71}" ShortID="385665064">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5931E76B-CECE-4250-97BC-5C8EC011E63D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="big_statue_dash" ID="{16D9FC14-D603-43C7-89B5-C9D2C296558A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0557941661161535"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.161722220626532"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.177894442689185"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.517511116177427"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>big_statue_dash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366237323"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="big_statue_dash" ID="{16D9FC14-D603-43C7-89B5-C9D2C296558A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ground_pound" ID="{08574AFA-6BBB-449F-B9C0-955A8346C85C}" ShortID="50508929">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9612F2C6-DB19-4E1F-9F71-49FF325B0C78}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Gun Bus" ID="{C068B9AA-801B-471F-AA70-820C5B2287A3}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="big_statue_ground_pound" ID="{4E4AEBF7-EFF5-4609-90CD-4021FA177AA3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00617658512265075"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.13500250339508"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>big_statue_ground_pound.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="198512206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="big_statue_ground_pound" ID="{4E4AEBF7-EFF5-4609-90CD-4021FA177AA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="hurt" ID="{40A4D2AC-1A71-47B4-9B48-D34C20D4FB46}" ShortID="374812105">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8431CD9D-98AF-426A-B0E7-7EECD3B233A3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-800</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B4502A2B-9F9A-455B-B3BE-53041BBA818D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{90EFD916-78FF-4BE8-8DC0-B53DFFF36EE5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="statue_hurt_1" ID="{4DF43906-20FF-4E3B-8E33-1EFA58F137E5}" ShortID="613222190">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4A38FC2B-4929-4C96-AB95-A01BD2BF3981}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F0F19CFE-8272-404A-ABF4-63A506D6D24A}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A49C8264-57C0-4653-962E-6B7E3AC2BDDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="statue_hurt_1" ID="{F8C23096-98B1-45B1-A8F0-151325998F0D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00585630108587076"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.165928530766339"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.240759044641354"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.490627906548522"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>statue_hurt_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="267298281"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="statue_hurt_1" ID="{F8C23096-98B1-45B1-A8F0-151325998F0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="statue_hurt_2" ID="{CF396E11-FC7A-47AF-84B3-5E1F7FE021C2}" ShortID="896500360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A49C8264-57C0-4653-962E-6B7E3AC2BDDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="statue_hurt_2" ID="{7DE61E76-6426-49F3-BA7D-8055626EA655}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00964788237556083"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.167330459951133"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.110046158346241"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.386819792419265"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>statue_hurt_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1023962256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="statue_hurt_2" ID="{7DE61E76-6426-49F3-BA7D-8055626EA655}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="statue_hurt_3" ID="{2F0DFB2B-70AD-49A6-A953-38B8E5B5932A}" ShortID="454021217">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A49C8264-57C0-4653-962E-6B7E3AC2BDDB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="statue_hurt_3" ID="{1AEC2288-5C2F-4DEF-BF5D-492BE5D4AA40}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00640106262242213"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.120946393760501"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.289058512107271"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.553860405910211"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>statue_hurt_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534542083"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="statue_hurt_3" ID="{1AEC2288-5C2F-4DEF-BF5D-492BE5D4AA40}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="crumble" ID="{5E19976E-972E-452E-A8D1-BB73CCB6639F}" ShortID="579339393">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E590EF7D-FA76-491B-8AAA-67F917AE4CD4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-800</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8245F68A-A558-4E59-8DEB-6416902B0832}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="500"/>
+															<Property Name="Min" Type="Real64" Value="-500"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ECACAB97-04CE-41CC-957A-AC02AEC0E14A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="statue_crumble" ID="{95E8B6B9-B198-4788-9037-003D0F9090FF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00372781424438427"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00853789714036396"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>statue_crumble.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4436882"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="statue_crumble" ID="{95E8B6B9-B198-4788-9037-003D0F9090FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="death" ID="{CE799B06-1136-4947-88ED-48C0C13B4FFE}" ShortID="412164978">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1000</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B803F8FF-B448-4959-9D0E-197BA4455810}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{553B367A-E02D-4160-9C25-3FE8DD98316B}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{74336F33-A16F-4643-8978-8FFECCDF0465}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World Bus" ID="{C1F6A85F-F279-43E7-B8A4-EC10F59A4998}" WorkUnitID="{1F1EC883-3F8A-4886-8FDE-2509D8058BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="statue_death" ID="{741AD81A-E10B-4204-843B-FB13E01C8863}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0277946973677542"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>statue_death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040642185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="statue_death" ID="{741AD81A-E10B-4204-843B-FB13E01C8863}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="horseman" ID="{078603B8-F582-48BA-A9EE-1EF85A6095CF}" ShortID="256411484"/>
+						<Folder Name="mendoza" ID="{CD9A6ADA-9A62-4E9E-81DC-C9464E7E2B4B}" ShortID="519620901"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

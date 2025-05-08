@@ -38,7 +38,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="player_hit_enemy" ID="{36B63A20-C101-4591-89B8-7E75DDD86C6F}"/>
+						<Event Name="player_hit_enemy" ID="{36B63A20-C101-4591-89B8-7E75DDD86C6F}">
+							<ChildrenList>
+								<Action Name="" ID="{C831C542-9848-45FD-848D-9B7D967F143C}" ShortID="993641110">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="game_area_crypt" ID="{DB29AEAE-E5CD-440B-B774-C4B1B97E5D00}">
@@ -372,17 +385,6 @@
 						</Folder>
 						<Folder Name="wolf" ID="{D1BACC84-C020-49CD-B211-BE02CA18544E}" ShortID="817639319">
 							<ChildrenList>
-								<Event Name="woof" ID="{9303B702-A636-4E52-85D1-ECCA7CA9D264}">
-									<ChildrenList>
-										<Action Name="" ID="{A5E3CBF4-66C0-4D1C-A68F-C0AEA64B0C70}" ShortID="232546053">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="woof" ID="{5C7C1DFC-DAD7-45CD-9312-7514254EA007}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="wolf_passive" ID="{19D7AD7B-A4A6-42E9-B0AD-25D6B4931A18}">
 									<ChildrenList>
 										<Action Name="" ID="{8C1AAE64-A738-4BE7-82E2-27A977C91A00}" ShortID="370840460">
@@ -676,7 +678,7 @@
 										<Action Name="" ID="{0BDE11F3-938B-4336-9962-63CD6FEE7590}" ShortID="18584389">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="use" ID="{BB48F5E9-7499-4D22-BFCE-F66A401B745F}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+													<ObjectRef Name="drop" ID="{445D80BA-D705-47D1-8C91-9E1611C6EC83}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -712,16 +714,76 @@
 					<ChildrenList>
 						<Folder Name="morphine" ID="{45EF9B78-81FC-4911-A0A4-5633795C8131}" ShortID="80232394">
 							<ChildrenList>
-								<Event Name="morphine_pick_up" ID="{0E1B4D37-9418-4A09-8332-317AC1BC3F6C}"/>
-								<Event Name="morphine_use" ID="{53E1A23F-2F4F-495A-A8AC-FAA4D93C60A3}"/>
-								<Event Name="morphine_drop" ID="{00BC029E-BAE8-4EAE-AA9A-8F4285718E31}"/>
+								<Event Name="morphine_pick_up" ID="{0E1B4D37-9418-4A09-8332-317AC1BC3F6C}">
+									<ChildrenList>
+										<Action Name="" ID="{14937C73-46FE-460C-AC2A-3A2B4E063699}" ShortID="75747830">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pick_up" ID="{BE32D395-9D28-4999-8B9D-3778C509E57A}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="morphine_use" ID="{53E1A23F-2F4F-495A-A8AC-FAA4D93C60A3}">
+									<ChildrenList>
+										<Action Name="" ID="{D95E519A-FEE3-433E-92B3-B03B568D67B1}" ShortID="860728216">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="morphine_use" ID="{EF904538-461C-4F3C-9F38-6CE9C28A7014}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="morphine_drop" ID="{00BC029E-BAE8-4EAE-AA9A-8F4285718E31}">
+									<ChildrenList>
+										<Action Name="" ID="{C114DDBE-0C6E-4E05-90D5-33C1D2ABD4BA}" ShortID="272101">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pick_up" ID="{BE32D395-9D28-4999-8B9D-3778C509E57A}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="cocaine" ID="{AF2DEC84-8844-4D7B-8A67-577AE1B8360B}" ShortID="246197136">
 							<ChildrenList>
-								<Event Name="cocaine_pick_up" ID="{450608C3-C387-4122-9EAC-9A87E198FBCD}"/>
-								<Event Name="cocaine_use" ID="{80A9A5F2-800D-4824-827C-0DD3D1CEF7BE}"/>
-								<Event Name="cocaine_drop" ID="{5FA2833A-1BCD-4D52-84BC-22CE729E537E}"/>
+								<Event Name="cocaine_pick_up" ID="{450608C3-C387-4122-9EAC-9A87E198FBCD}">
+									<ChildrenList>
+										<Action Name="" ID="{9E32FD63-86CD-4888-8612-739AC160C46D}" ShortID="104357131">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pick_up" ID="{BE32D395-9D28-4999-8B9D-3778C509E57A}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="cocaine_use" ID="{80A9A5F2-800D-4824-827C-0DD3D1CEF7BE}">
+									<ChildrenList>
+										<Action Name="" ID="{FDD505EF-3B01-480C-B05E-9AD12F19852B}" ShortID="992212056">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="cocaine_use" ID="{58CF3419-EAF7-42BF-8975-047787246287}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="cocaine_drop" ID="{5FA2833A-1BCD-4D52-84BC-22CE729E537E}">
+									<ChildrenList>
+										<Action Name="" ID="{ED891360-74B7-45F5-8EA3-D03CCF7E8040}" ShortID="455923279">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pick_up" ID="{BE32D395-9D28-4999-8B9D-3778C509E57A}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="note_pick_up" ID="{3801ECA2-1241-4E23-85C8-9FC3CDFE6A2F}">
@@ -730,6 +792,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="paper" ID="{8DE02537-3630-4F56-BAED-58F8946D5EFA}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="syringe" ID="{1062C4AE-3BFD-4C67-B66C-BA951F3CB13A}">
+							<ChildrenList>
+								<Action Name="" ID="{FF8D1FC4-ED63-48CF-87B1-13062EA3F548}" ShortID="658620987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="syringe" ID="{62A25918-10EA-449F-AA37-D2A5938E304C}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -747,7 +820,20 @@
 								<Event Name="horseman_death" ID="{34119CFD-7165-4C60-BFAE-0CE695E59592}"/>
 								<Event Name="horseman_shoot" ID="{49253B24-2E32-4E21-A908-342EA03A4087}"/>
 								<Event Name="horseman_unalert" ID="{7AA532F0-528A-40D4-BDF8-FEFF3A0DD564}"/>
-								<Event Name="horseman_shadow" ID="{1E32D2C7-BCE4-49E5-9C00-7E4A04D318CB}"/>
+								<Event Name="horseman_shadow" ID="{1E32D2C7-BCE4-49E5-9C00-7E4A04D318CB}">
+									<ChildrenList>
+										<Action Name="" ID="{630681D7-20DE-40DE-AF41-7EABEC3953CC}" ShortID="343407099">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="big_statue" ID="{2EE0B3E7-0B38-4867-9D2E-FCC33369AA1F}" ShortID="291659621">
@@ -766,12 +852,82 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="big_statue_alert" ID="{81955D5E-EEA3-4731-980C-5908F3A501EC}"/>
-								<Event Name="big_statue_hurt" ID="{1EBDF418-82B7-438A-848E-A471AFEA470D}"/>
-								<Event Name="big_statue_death" ID="{B2CEE166-4551-4A64-8D75-161412F47DC8}"/>
-								<Event Name="big_statue_not_hurt" ID="{194EDB29-F574-4003-A21A-AD65ECC12224}"/>
-								<Event Name="big_statue_dash" ID="{987AFE1E-5A76-4E79-B218-3F057AB9FBA9}"/>
-								<Event Name="big_statue_ground_pound" ID="{77C73481-5CA4-485D-8029-7FE8354F79D2}"/>
+								<Event Name="big_statue_alert" ID="{81955D5E-EEA3-4731-980C-5908F3A501EC}">
+									<ChildrenList>
+										<Action Name="" ID="{10700DD0-D5B6-40C4-91B2-218537B53D04}" ShortID="44846794">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="loading" ID="{A0AD8F8E-1274-4B6E-B081-27AB26DE0951}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="big_statue_hurt" ID="{1EBDF418-82B7-438A-848E-A471AFEA470D}">
+									<ChildrenList>
+										<Action Name="" ID="{CF19AC8B-19A6-4A31-8707-D8A718965056}" ShortID="1014424332">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="hurt" ID="{40A4D2AC-1A71-47B4-9B48-D34C20D4FB46}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E10845AF-D8F9-4AA8-97E9-ABFE9269F64F}" ShortID="374355168">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="crumble" ID="{5E19976E-972E-452E-A8D1-BB73CCB6639F}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="big_statue_death" ID="{B2CEE166-4551-4A64-8D75-161412F47DC8}">
+									<ChildrenList>
+										<Action Name="" ID="{1AF2CD77-F235-41A6-AB87-70DB2AA6658D}" ShortID="1064949058">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="death" ID="{CE799B06-1136-4947-88ED-48C0C13B4FFE}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="big_statue_not_hurt" ID="{194EDB29-F574-4003-A21A-AD65ECC12224}">
+									<ChildrenList>
+										<Action Name="" ID="{40A8B04B-35E4-4535-B24F-2A67675869FF}" ShortID="775274276">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="bonk" ID="{374D3BC5-C78C-4D46-8D4F-1CBF1E94302E}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="big_statue_dash" ID="{987AFE1E-5A76-4E79-B218-3F057AB9FBA9}">
+									<ChildrenList>
+										<Action Name="" ID="{C16763C4-2676-420F-A69B-52CA20E664E4}" ShortID="477577339">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dash" ID="{A54FE28B-0118-4AB9-9EEC-EE934F882E71}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="big_statue_ground_pound" ID="{77C73481-5CA4-485D-8029-7FE8354F79D2}">
+									<ChildrenList>
+										<Action Name="" ID="{F4A452EA-D8F1-4B7B-A78A-4299A4611835}" ShortID="452910904">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ground_pound" ID="{08574AFA-6BBB-449F-B9C0-955A8346C85C}" WorkUnitID="{8226EC94-4F04-4C36-BE2D-BD7CA465F4CC}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="mendoza" ID="{21F43803-90A6-473C-AFEC-2385ACD366EB}" ShortID="68407886">

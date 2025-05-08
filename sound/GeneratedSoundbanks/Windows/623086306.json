@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4E368268-CB63-4A12-A4E9-39BF9B244209}",
     "Language": "SFX",
-    "Hash": "{151CEFD7-D63E-158F-D948-071795539398}",
+    "Hash": "{1A1B30C4-6104-AFFC-1CE9-E71144CA479F}",
     "ObjectPath": "\\SoundBanks\\Sound\\sound",
     "ShortName": "sound",
     "Path": "623086306.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_crumble.wav",
-      "CachePath": "61/{615EA60A-1B5A-4343-1A0E-D6D79B6A3CB2}.wem"
+      "CachePath": "E6/{E6F12EAE-489E-2587-CCFD-CF78518DFC4C}.wem"
      },
      {
       "Id": "8275229",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_passive_2.wav",
-      "CachePath": "1C/{1CA68B5E-65EC-080D-D305-66304C8DADEC}.wem"
+      "CachePath": "E3/{E383B1F3-60F2-F03D-1125-875DEDF98602}.wem"
      },
      {
       "Id": "24468781",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_hurt_1.wav",
-      "CachePath": "EA/{EA099AE1-8897-E73C-97F8-B8564EF9B313}.wem"
+      "CachePath": "AA/{AA3B9C72-78F3-FBEA-7F9A-9F603EC77E09}.wem"
      },
      {
       "Id": "108777231",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_passive_4.wav",
-      "CachePath": "5C/{5CF5A6BD-F26C-7A45-4BF8-4D790F41C5FA}.wem"
+      "CachePath": "F3/{F3739B14-B437-3173-C6E5-263F6EA4BD9D}.wem"
      },
      {
       "Id": "131495885",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "village_step_3.wav",
-      "CachePath": "FD/{FD1D7754-E49F-71DE-0A25-ED0B5464B58F}.wem"
+      "CachePath": "41/{41FA4736-BB6E-C5E7-61D8-315EFFD094EB}.wem"
      },
      {
       "Id": "145996034",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_1.wav",
-      "CachePath": "B6/{B6D2A4B4-8347-95EE-CC48-9D23B86D1889}.wem"
+      "CachePath": "47/{47D15C49-7F60-B89A-C5FB-1EB3DD20883A}.wem"
      },
      {
       "Id": "188692061",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_alert_2.wav",
-      "CachePath": "23/{23C49644-0122-B6E4-3C39-1EAE7C09E93D}.wem"
+      "CachePath": "8A/{8A38EA45-9E5F-BCFB-411E-B348FE14921B}.wem"
      },
      {
       "Id": "193097032",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "village_step_1.wav",
-      "CachePath": "96/{96EEC2D3-136A-20C2-DEB6-40314DCDDC7D}.wem"
+      "CachePath": "CF/{CF779F8E-59FB-F764-2A38-E2A725BB1A70}.wem"
      },
      {
       "Id": "201069251",
@@ -221,7 +221,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_passive_2.wav",
-      "CachePath": "E3/{E320730A-DAE4-EA77-F6D2-AA58E6A2E451}.wem"
+      "CachePath": "3C/{3CE65CFE-C6AC-A7FB-213A-CCB371E3C691}.wem"
      },
      {
       "Id": "257366373",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "loading.wav",
-      "CachePath": "54/{54E3C8F6-91B1-F6A3-4683-C994678B1A74}.wem"
+      "CachePath": "63/{63C7891B-A746-6712-DF05-391B41D20AEA}.wem"
      },
      {
       "Id": "267298281",
@@ -237,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_hurt_1.wav",
-      "CachePath": "3E/{3ED39BC4-96D0-5514-BB19-650FB3EB4574}.wem"
+      "CachePath": "F4/{F477D5B3-99D8-EF33-7CC0-56E3AB7C8725}.wem"
      },
      {
       "Id": "270499484",
@@ -261,7 +261,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_passive_3.wav",
-      "CachePath": "44/{44AAD5BB-D470-DD62-31D4-607B0F239CB2}.wem"
+      "CachePath": "71/{71D085B5-EDA2-3580-E2EB-FBB59E76DE15}.wem"
      },
      {
       "Id": "368868233",
@@ -269,15 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_death.wav",
-      "CachePath": "1A/{1A6D4E60-6D61-DC7E-FA70-48EF641175E4}.wem"
-     },
-     {
-      "Id": "369113679",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "woof.wav",
-      "CachePath": "ED/{EDD36B8C-1751-3BAD-AEAC-601B673B431C}.wem"
+      "CachePath": "55/{55BA9388-F841-3491-6F16-63132783CB32}.wem"
      },
      {
       "Id": "369262581",
@@ -301,7 +293,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_alert.wav",
-      "CachePath": "D6/{D6B790F5-5E15-6860-E839-3312D9EC3A40}.wem"
+      "CachePath": "62/{626CFD1F-9FC9-2AC7-139A-42BD36E01ACF}.wem"
      },
      {
       "Id": "410026273",
@@ -309,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_hurt_1.wav",
-      "CachePath": "98/{98F849E8-6C1D-D218-D387-11B1E1C6E140}.wem"
+      "CachePath": "03/{03559D38-F98C-BD68-836C-3EA49BE934B4}.wem"
      },
      {
       "Id": "420394761",
@@ -325,7 +317,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_passive_1.wav",
-      "CachePath": "B5/{B576F598-7AE6-264D-9CC3-640B2412B9BA}.wem"
+      "CachePath": "57/{5766D4DB-18C7-93F0-97F6-B8FFE17A4CCE}.wem"
      },
      {
       "Id": "422511376",
@@ -349,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_hurt_2.wav",
-      "CachePath": "01/{01C54076-837D-75A0-3116-C23EEB5E7A57}.wem"
+      "CachePath": "29/{2921D926-28E5-8EDB-7461-35FEB296EC23}.wem"
      },
      {
       "Id": "461370265",
@@ -357,7 +349,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_3.wav",
-      "CachePath": "D4/{D45EE4C8-D118-FB35-0589-CA65F51FEE86}.wem"
+      "CachePath": "F0/{F036BA3E-5864-ABC9-5C3C-20FC6601F432}.wem"
      },
      {
       "Id": "482751254",
@@ -397,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_9.wav",
-      "CachePath": "58/{58749FEA-C63B-3F96-8255-963BD98AC04C}.wem"
+      "CachePath": "B8/{B8D4EB11-8388-E384-63B6-A1164F5439E2}.wem"
      },
      {
       "Id": "534542083",
@@ -405,7 +397,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_hurt_3.wav",
-      "CachePath": "99/{99875491-EAE3-557F-9CF3-939E14910101}.wem"
+      "CachePath": "71/{71E15E83-582E-8864-48D1-C6A299C028BC}.wem"
      },
      {
       "Id": "535719462",
@@ -453,7 +445,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_4.wav",
-      "CachePath": "2F/{2FA29462-8DA8-8D5E-3E11-24524DA7B1B3}.wem"
+      "CachePath": "02/{022DF7A8-9892-1B11-6A4F-4390DC2028F4}.wem"
      },
      {
       "Id": "602426104",
@@ -485,7 +477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_hurt_2.wav",
-      "CachePath": "53/{53099117-8690-C513-C88A-61F84EE3F84D}.wem"
+      "CachePath": "13/{1380D7AB-5B6F-07EC-8693-A3371F82838E}.wem"
      },
      {
       "Id": "719220187",
@@ -517,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_13.wav",
-      "CachePath": "97/{97BEABF6-3C1F-1025-2C57-FD84750E9773}.wem"
+      "CachePath": "C4/{C4917F01-DC64-F4A5-4D2B-A1C572DC0BE0}.wem"
      },
      {
       "Id": "762107716",
@@ -557,7 +549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_death.wav",
-      "CachePath": "E3/{E33E15F8-96A2-DCDF-C21C-104ECC736161}.wem"
+      "CachePath": "98/{98A93247-5F58-F66D-D748-94196012A4EF}.wem"
      },
      {
       "Id": "851772844",
@@ -573,7 +565,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_swing_knife_2.wav",
-      "CachePath": "E4/{E4803174-F2AF-1F24-24FA-D331174443C1}.wem"
+      "CachePath": "9E/{9E859A48-C9DC-0267-609D-32F049E4C146}.wem"
      },
      {
       "Id": "876726180",
@@ -581,7 +573,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_hurt_3.wav",
-      "CachePath": "4D/{4D6EC9DB-D0C1-5F34-69E9-F838CEB2C5B2}.wem"
+      "CachePath": "B8/{B85C8C6C-9638-4607-F142-D4D39D5F1C74}.wem"
      },
      {
       "Id": "894862109",
@@ -621,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_alert_1.wav",
-      "CachePath": "76/{76DD59DF-843C-39C8-1B07-FAF9AEAB7777}.wem"
+      "CachePath": "C4/{C49805A4-8751-C5D1-B19A-4996F1D5F753}.wem"
      },
      {
       "Id": "939163955",
@@ -637,7 +629,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "rat_hurt_4.wav",
-      "CachePath": "14/{144637C2-C228-F535-0151-E757246927A7}.wem"
+      "CachePath": "83/{835FFCF0-4613-613F-380D-692DD74CF59D}.wem"
      },
      {
       "Id": "994139354",
@@ -669,7 +661,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_hurt_2.wav",
-      "CachePath": "83/{837B60D5-651C-4DAF-70BB-C7BBE8E5287A}.wem"
+      "CachePath": "30/{30842EC1-C11C-B745-DF8A-23BD06213CDD}.wem"
      },
      {
       "Id": "1028177520",
@@ -677,7 +669,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wolf_passive_1.wav",
-      "CachePath": "3F/{3F976AA6-5830-4B4D-7CEE-9EDC573636AE}.wem"
+      "CachePath": "63/{63C1D1D1-0009-601F-D834-6C5D19B1ECEC}.wem"
      },
      {
       "Id": "1036904178",
@@ -693,7 +685,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "statue_death.wav",
-      "CachePath": "8E/{8ED62E60-758B-159E-BFC7-6131A3CF80B0}.wem"
+      "CachePath": "CE/{CEDBDF56-AF6D-943F-9E17-1A3567B1EE1F}.wem"
      },
      {
       "Id": "1042810372",
@@ -701,7 +693,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "village_step_4.wav",
-      "CachePath": "15/{15A91CD6-7203-C20F-B70A-A451F4A856A0}.wem"
+      "CachePath": "74/{745C34AE-C1AB-B2A7-8671-1284A3F4EEF4}.wem"
      },
      {
       "Id": "1045942528",
@@ -2029,20 +2021,6 @@
       ]
      },
      {
-      "Id": "2058049672",
-      "Name": "woof",
-      "ObjectPath": "\\Events\\Sound\\enemies\\wolf\\woof",
-      "GUID": "{9303B702-A636-4E52-85D1-ECCA7CA9D264}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.32964584",
-      "DurationMax": "0.32964584",
-      "MediaRefs": [
-       {
-        "Id": "369113679"
-       }
-      ]
-     },
-     {
       "Id": "1451961116",
       "Name": "worker_alert",
       "ObjectPath": "\\Events\\Sound\\enemies\\worker\\worker_alert",
@@ -2127,6 +2105,6 @@
     ]
    }
   ],
-  "FileHash": "{F5053250-CEA2-9E36-C2FF-9612E6B4ADF2}"
+  "FileHash": "{BBF48E44-E7E5-4336-C94A-1D6C627890A0}"
  }
 }

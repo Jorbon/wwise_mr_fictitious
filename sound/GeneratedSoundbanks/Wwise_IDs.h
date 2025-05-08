@@ -85,7 +85,6 @@ namespace AK
         static const AkUniqueID WOLF_DEATH = 409434414U;
         static const AkUniqueID WOLF_HURT = 2471571571U;
         static const AkUniqueID WOLF_PASSIVE = 837299471U;
-        static const AkUniqueID WOOF = 2058049672U;
         static const AkUniqueID WORKER_ALERT = 1451961116U;
         static const AkUniqueID WORKER_DEATH = 2206398204U;
         static const AkUniqueID WORKER_HURT = 1722103065U;
